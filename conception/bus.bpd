@@ -1,0 +1,4588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{F9B8EFD5-6336-4F0D-BB73-AD5E6BC4ABC5}" Label="" LastModificationDate="1496424965" Name="bus" Objects="163" Symbols="23" Target="PostgreSQL 8" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" signature="PDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+
+<o:RootObject Id="o1">
+<c:Children>
+<o:Model Id="o2">
+<a:ObjectID>F9B8EFD5-6336-4F0D-BB73-AD5E6BC4ABC5</a:ObjectID>
+<a:Name>bus</a:Name>
+<a:Code>BUS</a:Code>
+<a:CreationDate>1496424931</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424965</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {DF6F8513-61AB-4E9D-A933-96AB82D51948}
+DAT 1496424935
+ATT FOPT</a:History>
+<a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Physical Objects]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=
+RevPkey=Yes
+RevFkey=Yes
+RevAkey=Yes
+RevCheck=Yes
+RevIndx=Yes
+RevOpts=Yes
+RevViewAsTabl=No
+RevViewOpts=Yes
+RevSystAsTabl=Yes
+RevTablPerm=No
+RevViewPerm=No
+RevProcPerm=No
+RevDbpkPerm=No
+RevSqncPerm=No
+RevAdtPerm=No
+RevUserPriv=No
+RevUserOpts=No
+RevGrpePriv=No
+RevRolePriv=No
+RevDtbsOpts=Yes
+RevDtbsPerm=No
+RevViewIndx=Yes
+RevJidxOpts=Yes
+RevStats=No
+RevTspcPerm=No
+RevCaseSensitive=No
+GenTrgrStdMsg=Yes
+GenTrgrMsgTab=
+GenTrgrMsgNo=
+GenTrgrMsgTxt=
+TrgrPreserve=No
+TrgrIns=Yes
+TrgrUpd=Yes
+TrgrDel=Yes
+TrgrC2Ins=Yes
+TrgrC2Upd=Yes
+TrgrC3=Yes
+TrgrC4=Yes
+TrgrC5=Yes
+TrgrC6=Yes
+TrgrC7=Yes
+TrgrC8=Yes
+TrgrC9=Yes
+TrgrC10=Yes
+TrgrC11=Yes
+TrgrC1=Yes
+TrgrC12Ins=Yes
+TrgrC12Upd=Yes
+TrgrC13=Yes
+UpdateTableStatistics=Yes
+UpdateColumnStatistics=Yes
+
+[FolderOptions\Physical Objects\Database Generation]
+GenScriptName=bus.sql
+GenScriptName0=bus.sql
+GenScriptName1=crebas.sql
+GenScriptName2=crebas1.sql
+GenScriptName3=
+GenScriptName4=
+GenScriptName5=
+GenScriptName6=
+GenScriptName7=
+GenScriptName8=
+GenScriptName9=
+GenPathName=H:\UwAmp\www\zotra\conception\
+GenSingleFile=Yes
+GenODBC=No
+GenCheckModel=No
+GenScriptPrev=Yes
+GenArchiveModel=No
+GenUseSync=No
+GenSyncChoice=0
+GenSyncArch=
+GenSyncRmg=0
+
+[FolderOptions\Physical Objects\Database Generation\Format]
+GenScriptTitle=Yes
+GenScriptNamLabl=No
+GenScriptQDtbs=No
+GenScriptQOwnr=Yes
+GenScriptCase=0
+GenScriptEncoding=ANSI
+GenScriptNAcct=No
+IdentifierDelimiter=&quot;
+
+[FolderOptions\Physical Objects\Database Generation\Database]
+Create=Yes
+Open=Yes
+Close=Yes
+Drop=Yes
+Permission=No
+
+[FolderOptions\Physical Objects\Database Generation\Database\Create]
+Physical Options=Yes
+Header=Yes
+Footer=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Tablespace]
+Create=Yes
+Drop=Yes
+Comment=Yes
+Permission=No
+
+[FolderOptions\Physical Objects\Database Generation\Tablespace\Create]
+Header=Yes
+Footer=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Storage]
+Create=Yes
+Drop=Yes
+Comment=Yes
+
+[FolderOptions\Physical Objects\Database Generation\User]
+Create=Yes
+Grant=Yes
+Drop=Yes
+Comment=Yes
+Privilege=No
+
+[FolderOptions\Physical Objects\Database Generation\User\Create]
+Physical Options=No
+
+[FolderOptions\Physical Objects\Database Generation\Group]
+Create=Yes
+Drop=Yes
+Comment=Yes
+Privilege=No
+
+[FolderOptions\Physical Objects\Database Generation\Role]
+Create=Yes
+Drop=Yes
+Privilege=No
+
+[FolderOptions\Physical Objects\Database Generation\UserDefinedDataType]
+Create=Yes
+Comment=Yes
+Drop=Yes
+
+[FolderOptions\Physical Objects\Database Generation\UserDefinedDataType\Create]
+Default value=Yes
+Check=Yes
+
+[FolderOptions\Physical Objects\Database Generation\AbstractDataType]
+Create=Yes
+Header=Yes
+Footer=Yes
+Drop=Yes
+Comment=Yes
+Install JAVA class=Yes
+Remove JAVA class=Yes
+Permission=No
+
+[FolderOptions\Physical Objects\Database Generation\Rule]
+Create=Yes
+Drop=Yes
+Comment=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Default]
+Create=Yes
+Comment=Yes
+Drop=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Sequence]
+Create=Yes
+Drop=Yes
+Comment=Yes
+Permission=No
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column]
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Table]
+Create=Yes
+Drop=Yes
+Comment=Yes
+Permission=No
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Table\Create]
+Check=Yes
+Physical Options=Yes
+Header=Yes
+Footer=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Table\Create\Check]
+Constraint declaration=No
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Column]
+User datatype=Yes
+Default value=Yes
+Check=Yes
+Physical Options=Yes
+Comment=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Column\Check]
+Constraint declaration=No
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Key]
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Key\Primary key]
+Create=Yes
+Drop=Yes
+Comment=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Key\Primary key\Create]
+Constraint declaration=No
+Physical Options=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Key\Alternate key]
+Create=Yes
+Drop=Yes
+Comment=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Key\Alternate key\Create]
+Constraint declaration=No
+Physical Options=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Foreign key]
+Create=Yes
+Drop=Yes
+Comment=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Foreign key\Create]
+Constraint declaration=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Index]
+Create=Yes
+Drop=Yes
+Comment=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Index\Create]
+Constraint declaration=Yes
+Physical Options=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Index\Filter]
+Primary key=Yes
+Foreign key=Yes
+Alternate key=No
+Cluster=Yes
+Other=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Trigger]
+Create=Yes
+Drop=Yes
+Comment=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Table&amp;&amp;Column\Trigger\Filter]
+For insert=Yes
+For update=Yes
+For delete=Yes
+For other=Yes
+
+[FolderOptions\Physical Objects\Database Generation\View]
+Create=Yes
+Drop=Yes
+Comment=Yes
+Permission=No
+
+[FolderOptions\Physical Objects\Database Generation\View\Create]
+Force Column list=No
+Physical Options=Yes
+Header=Yes
+Footer=Yes
+
+[FolderOptions\Physical Objects\Database Generation\View\ViewColumn]
+Comment=Yes
+
+[FolderOptions\Physical Objects\Database Generation\View\ViewIndex]
+Create=Yes
+Drop=Yes
+Comment=Yes
+
+[FolderOptions\Physical Objects\Database Generation\View\ViewIndex\Create]
+Physical Options=Yes
+
+[FolderOptions\Physical Objects\Database Generation\View\ViewIndex\Filter]
+Cluster=Yes
+Other=Yes
+
+[FolderOptions\Physical Objects\Database Generation\View\Trigger]
+Create=Yes
+Drop=Yes
+Comment=Yes
+
+[FolderOptions\Physical Objects\Database Generation\View\Trigger\Filter]
+For insert=Yes
+For update=Yes
+For delete=Yes
+For other=Yes
+
+[FolderOptions\Physical Objects\Database Generation\DBMSTrigger]
+Create=Yes
+Drop=Yes
+Comment=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Synonym]
+Create=Yes
+Drop=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Synonym\Filter]
+Table=Yes
+View=Yes
+Proc=Yes
+Synonym=Yes
+Database Package=Yes
+Sequence=Yes
+
+[FolderOptions\Physical Objects\Database Generation\JoinIndex]
+Create=Yes
+Drop=Yes
+Comment=Yes
+
+[FolderOptions\Physical Objects\Database Generation\JoinIndex\Create]
+Physical Options=Yes
+Header=Yes
+Footer=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Procedure]
+Create=Yes
+Drop=Yes
+Comment=Yes
+Permission=No
+
+[FolderOptions\Physical Objects\Database Generation\Procedure\Create]
+Header=Yes
+Footer=Yes
+
+[FolderOptions\Physical Objects\Database Generation\DatabasePackage]
+Create=Yes
+Drop=Yes
+Permission=No
+
+[FolderOptions\Physical Objects\Database Generation\WebService]
+Create=Yes
+Drop=Yes
+Comment=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Dimension]
+Create=Yes
+Drop=Yes
+
+[FolderOptions\Physical Objects\Database Generation\Synchronization]
+GenBackupTabl=1
+GenKeepBackTabl=1
+GenTmpTablDrop=No
+GenKeepTablOpts=No
+
+[FolderOptions\Physical Objects\Test Data]
+GenDataPathName=K:\UwAmp\www\Fundraising\conception\
+GenDataSinglefile=Yes
+GenDataScriptName=testdata.sql
+GenDataScriptName0=testdata.sql
+GenDataScriptName1=testdata
+GenDataScriptName2=
+GenDataScriptName3=
+GenDataScriptName4=
+GenDataScriptName5=
+GenDataScriptName6=
+GenDataScriptName7=
+GenDataScriptName8=
+GenDataScriptName9=
+GenDataOdbc=0
+GenDataDelOld=No
+GenDataTitle=No
+GenDataDefNumRows=20
+GenDataCommit=0
+GenDataPacket=0
+GenDataOwner=No
+GenDataProfNumb=
+GenDataProfChar=
+GenDataProfDate=
+GenDataCSVSeparator=;
+GenDataFileFormat=CSV
+GenDataUseWizard=No
+
+[FolderOptions\Pdm]
+IndxIQName=%COLUMN%_%INDEXTYPE%
+IndxPK=Yes
+IndxFK=Yes
+IndxAK=Yes
+IndxPKName=%TABLE%_PK
+IndxFKName=%REFR%_FK
+IndxAKName=%TABLE%_AK
+IndxPreserve=Yes
+IndxThreshold=0
+IndxStats=No
+RefrPreserve=No
+JidxPreserve=No
+RbldMultiFact=Yes
+RbldMultiDim=Yes
+RbldMultiJidx=Yes
+CubePreserve=No
+TablStProcPreserve=No
+ProcDepPreserve=Yes
+TrgrDepPreserve=Yes
+CubeScriptPath=
+CubeScriptCase=0
+CubeScriptEncoding=ANSI
+CubeScriptNacct=No
+CubeScriptHeader=No
+CubeScriptExt=csv
+CubeScriptExt0=txt
+CubeScriptExt1=
+CubeScriptExt2=
+CubeScriptSep=,
+CubeScriptDeli=&quot;
+DfltDomnName=D_%.U:VALUE%
+DfltColnName=D_%.U:VALUE%
+DfltReuse=Yes
+DfltDrop=Yes</a:PackageOptionsText>
+<a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Physical Objects]
+CaseSensitive=No
+DisplayName=Yes
+EnableTrans=No
+EnableRequirements=No
+DefaultDttp=
+IgnoreOwner=No
+RebuildTrigger=Yes
+RefrUnique=Yes
+RefrAutoMigrate=Yes
+RefrMigrateReuse=Yes
+RefrMigrateDomain=Yes
+RefrMigrateCheck=Yes
+RefrMigrateRule=Yes
+RefrMigrateExtd=No
+RefrMigrDefaultLink=No
+RefrDfltImpl=D
+RefrPrgtColn=No
+RefrMigrateToEnd=No
+RebuildTriggerDep=No
+ColnFKName=%.3:PARENT%_%COLUMN%
+ColnFKNameUse=No
+DomnCopyDttp=Yes
+DomnCopyChck=No
+DomnCopyRule=No
+DomnCopyMand=No
+DomnCopyExtd=No
+DomnCopyProf=No
+Notation=0
+DomnDefaultMandatory=No
+ColnDefaultMandatory=No
+TablDefaultOwner=
+ViewDefaultOwner=
+TrgrDefaultOwnerTabl=
+TrgrDefaultOwnerView=
+IdxDefaultOwnerTabl=
+IdxDefaultOwnerView=
+JdxDefaultOwner=
+DBPackDefaultOwner=
+SeqDefaultOwner=
+ProcDefaultOwner=
+DBMSTrgrDefaultOwner=
+Currency=USD
+RefrDeleteConstraint=1
+RefrUpdateConstraint=1
+RefrParentMandatory=No
+RefrParentChangeAllow=Yes
+RefrCheckOnCommit=No
+
+[ModelOptions\Physical Objects\NamingOptionsTemplates]
+
+[ModelOptions\Physical Objects\ClssNamingOptions]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\PDMPCKG]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\PDMPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\PDMPCKG\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\PDMDOMN]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\PDMDOMN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\PDMDOMN\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\TABL]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\TABL\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\TABL\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\COLN]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\COLN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\COLN\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\INDX]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\INDX\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\INDX\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\REFR]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\REFR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\REFR\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\VREF]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\VREF\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\VREF\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\VIEW]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\VIEW\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\VIEW\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\VIEWC]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\VIEWC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\VIEWC\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\WEBSERV]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\WEBSERV\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\WEBSERV\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;/-_.!~*&#39;()&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\WEBOP]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\WEBOP\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\WEBOP\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;/-_.!~*&#39;()&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\WPARAM]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\WPARAM\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\WPARAM\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\FACT]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\FACT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\FACT\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\DIMN]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\DIMN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\DIMN\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\CUBE]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\CUBE\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\CUBE\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\MEAS]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\MEAS\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\MEAS\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\DATTR]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\DATTR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\DATTR\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\FILO]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=&quot;\/:*?&lt;&gt;|&quot;
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_. &quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Physical Objects\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Physical Objects\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Connection]
+
+[ModelOptions\Pdm]
+
+[ModelOptions\Generate]
+
+[ModelOptions\Generate\Pdm]
+RRMapping=No
+
+[ModelOptions\Generate\Cdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+Notation=2
+
+[ModelOptions\Generate\Oom]
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=Yes
+ClassPrefix=
+
+[ModelOptions\Generate\Xsm]
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No
+
+[ModelOptions\Generate\Ldm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+
+[ModelOptions\Default Opts]
+
+[ModelOptions\Default Opts\TABL]
+PhysOpts=
+
+[ModelOptions\Default Opts\COLN]
+PhysOpts=
+
+[ModelOptions\Default Opts\INDX]
+PhysOpts=
+
+[ModelOptions\Default Opts\AKEY]
+PhysOpts=
+
+[ModelOptions\Default Opts\PKEY]
+PhysOpts=
+
+[ModelOptions\Default Opts\STOR]
+PhysOpts=
+
+[ModelOptions\Default Opts\TSPC]
+PhysOpts=
+
+[ModelOptions\Default Opts\SQNC]
+PhysOpts=
+
+[ModelOptions\Default Opts\DTBS]
+PhysOpts=
+
+[ModelOptions\Default Opts\USER]
+PhysOpts=
+
+[ModelOptions\Default Opts\JIDX]
+PhysOpts=</a:ModelOptionsText>
+<c:GenerationOrigins>
+<o:Shortcut Id="o3">
+<a:ObjectID>3978E4FB-6132-48C7-B898-869EC622F144</a:ObjectID>
+<a:Name>bus</a:Name>
+<a:Code>BUS</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>DF6F8513-61AB-4E9D-A933-96AB82D51948</a:TargetID>
+<a:TargetClassID>1E597170-9350-11D1-AB3C-0020AF71E433</a:TargetClassID>
+</o:Shortcut>
+</c:GenerationOrigins>
+<c:DBMS>
+<o:Shortcut Id="o4">
+<a:ObjectID>D590C88F-5DED-4D92-AD31-0540CB6EB750</a:ObjectID>
+<a:Name>PostgreSQL 8</a:Name>
+<a:Code>PGSQL80</a:Code>
+<a:CreationDate>1496424931</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424931</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>8AF15AEA-CCBC-4EDC-B468-7DB8DB5300B2</a:TargetID>
+<a:TargetClassID>4BA9F647-DAB1-11D1-9944-006097355D9B</a:TargetClassID>
+</o:Shortcut>
+</c:DBMS>
+<c:PhysicalDiagrams>
+<o:PhysicalDiagram Id="o5">
+<a:ObjectID>36972B69-1A87-48DF-845A-C996D698E25F</a:ObjectID>
+<a:Name>Diagram_1</a:Name>
+<a:Code>DIAGRAM_1</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {FFAC440C-2DC0-41C1-8A6C-25F49CADC1F6}
+DAT 1496424935</a:History>
+<a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\PDM]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Grid size=0
+Graphic unit=2
+Window color=255, 255, 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255, 255, 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Mode=0
+Trunc Length=80
+Word Length=80
+Word Text=!&quot;&quot;#$%&amp;&#39;()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom de l&amp;#39;objet&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;Yes&quot; Display=&quot;HorizontalRadios&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Emplacement&quot; Attribute=&quot;LocationOrName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+PckgShowStrn=Yes
+Package.Comment=No
+Package.IconPicture=No
+Package_SymbolLayout=
+Display Model Version=Yes
+Table.Stereotype=Yes
+Table.DisplayName=Yes
+Table.OwnerDisplayName=No
+Table.Columns=Yes
+Table.Columns._Filter=&quot;Tous les colonnes&quot; PDMCOLNALL
+Table.Columns._Columns=Stereotype DataType KeyIndicator
+Table.Columns._Limit=-5
+Table.Keys=No
+Table.Keys._Columns=Stereotype Indicator
+Table.Indexes=No
+Table.Indexes._Columns=Stereotype
+Table.Triggers=No
+Table.Triggers._Columns=Stereotype
+Table.Comment=No
+Table.IconPicture=No
+Table_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;Yes&quot; Display=&quot;HorizontalRadios&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Propriétaire et nom&quot; Attribute=&quot;OwnerDisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardCollection Name=&quot;Colonnes&quot; Collection=&quot;Columns&quot; Columns=&quot;Stereotype No\r\nDisplayName Yes\r\nDataType No\r\nSymbolDataType No &amp;quot;Domaine ou type de données&amp;quot;\r\nDomain No\r\nKeyIndicator No\r\nIndexIndicator No\r\nNullStatus No&quot; Filters=&quot;&amp;quot;Tous les colonnes&amp;quot;  PDMCOLNALL &amp;quot;&amp;quot;\r\n&amp;quot;Colonnes de clé primaire&amp;quot;  PDMCOLNPK &amp;quot;PRIM \&amp;quot;TRUE\&amp;quot; TRUE&amp;quot;\r\n&amp;quot;Colonnes de clé&amp;quot;  PDMCOLNKEY &amp;quot;KEYS \&amp;quot;TRUE\&amp;quot; TRUE&amp;quot;&quot; HasLimit=&quot;Yes&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardCollection Name=&quot;Clés&quot; Collection=&quot;Keys&quot; Columns=&quot;Stereotype No\r\nDisplayName Yes\r\nIndicator No&quot; HasLimit=&quot;No&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardCollection Name=&quot;Index&quot; Collection=&quot;Indexes&quot; Columns=&quot;Stereotype No\r\nDisplayName Yes\r\nIndicator No&quot; HasLimit=&quot;No&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardCollection Name=&quot;Triggers&quot; Collection=&quot;Triggers&quot; Columns=&quot;Stereotype No\r\nDisplayName Yes&quot; HasLimit=&quot;No&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+View.Stereotype=Yes
+View.DisplayName=Yes
+View.OwnerDisplayName=No
+View.Columns=Yes
+View.Columns._Columns=DisplayName
+View.Columns._Limit=-5
+View.TemporaryVTables=Yes
+View.Indexes=No
+View.Comment=No
+View.IconPicture=No
+View_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;Yes&quot; Display=&quot;HorizontalRadios&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Propriétaire et nom&quot; Attribute=&quot;OwnerDisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardCollection Name=&quot;Colonnes&quot; Collection=&quot;Columns&quot; Columns=&quot;DisplayName No\r\nExpression No\r\nDataType No\r\nSymbolDataType No &amp;quot;Domaine ou type de données&amp;quot;\r\nIndexIndicator No&quot; HasLimit=&quot;Yes&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardCollection Name=&quot;Tables&quot; Collection=&quot;TemporaryVTables&quot; Columns=&quot;Name Yes&quot; HasLimit=&quot;No&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardCollection Name=&quot;Index&quot; Collection=&quot;Indexes&quot; Columns=&quot;DisplayName Yes&quot; HasLimit=&quot;No&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+Procedure.Stereotype=No
+Procedure.DisplayName=Yes
+Procedure.OwnerDisplayName=No
+Procedure.Comment=No
+Procedure.IconPicture=No
+Procedure_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;Yes&quot; Display=&quot;HorizontalRadios&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Propriétaire et nom&quot; Attribute=&quot;OwnerDisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+Reference.Cardinality=No
+Reference.ImplementationType=No
+Reference.ChildRole=Yes
+Reference.Stereotype=Yes
+Reference.DisplayName=No
+Reference.ForeignKeyConstraintName=Yes
+Reference.JoinExpression=No
+Reference.Integrity=No
+Reference.ParentRole=Yes
+Reference_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Cardinalité&quot; Attribute=&quot;Cardinality&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Mise en oeuvre&quot; Attribute=&quot;ImplementationType&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Rôle enfant&quot; Attribute=&quot;ChildRole&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;No&quot; Display=&quot;HorizontalRadios&quot; &gt;[CRLF]   &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]   &lt;StandardAttribute Name=&quot;Nom de con&amp;amp;trainte&quot; Attribute=&quot;ForeignKeyConstraintName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;Nom de con&amp;amp;trainte&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]   &lt;StandardAttribute Name=&quot;Jointure&quot; Attribute=&quot;JoinExpression&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;Jointure&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;/ExclusiveChoice&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Intégrité référentielle&quot; Attribute=&quot;Integrity&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;Intégrité référentielle&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Rôle parent&quot; Attribute=&quot;ParentRole&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+ViewReference.ChildRole=Yes
+ViewReference.Stereotype=Yes
+ViewReference.DisplayName=No
+ViewReference.JoinExpression=No
+ViewReference.ParentRole=Yes
+ViewReference_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Rôle enfant&quot; Attribute=&quot;ChildRole&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;No&quot; Display=&quot;HorizontalRadios&quot; &gt;[CRLF]   &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]   &lt;StandardAttribute Name=&quot;Expression de jointure&quot; Attribute=&quot;JoinExpression&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;/ExclusiveChoice&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Rôle parent&quot; Attribute=&quot;ParentRole&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+PckgStrn=Yes
+EnttAttr=Yes
+PentMode=0
+PentNb=5
+EnttDttp=Yes
+EnttDomn=Yes
+EnttShowDomn=No
+EnttMand=Yes
+EnttCIdf=Yes
+EnttKeyI=Yes
+PentStrn=Yes
+IdtfStrn=Yes
+RlshName=Yes
+RlshRole=Yes
+RlshCard=No
+RlshDmnt=Yes
+RlshStrn=Yes
+InhrName=Yes
+InhrStrn=Yes
+Entity.IconPicture=No
+Entity_SymbolLayout=
+Association.IconPicture=No
+Association_SymbolLayout=
+Inheritance.IconPicture=No
+Inheritance_SymbolLayout=
+EnttStrn=Yes
+EnttCmmt=No
+AsscStrn=Yes
+AsscCmmt=No
+AsscAttr=Yes
+AsscDttp=Yes
+AsscDomn=Yes
+AsscShowDomn=No
+AsscMand=Yes
+AsscDLim=Yes
+AsscNb=5
+PassStrn=1
+LinkRole=Yes
+LinkCard=Yes
+LinkStrn=Yes
+File Location=No
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LCNMFont=Arial,8,N
+LCNMFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=Yes
+Keep center=Yes
+Keep size=No
+Width=2400
+Height=2400
+Brush color=255 255 255
+Fill Color=No
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\PDMPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\TABL]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+OWNRDISPNAMEFont=Arial,8,N
+OWNRDISPNAMEFont color=0, 0, 0
+ColumnsFont=Arial,8,N
+ColumnsFont color=0 0 0
+TablePkColumnsFont=Arial,8,U
+TablePkColumnsFont color=0 0 0
+TableFkColumnsFont=Arial,8,N
+TableFkColumnsFont color=0 0 0
+KeysFont=Arial,8,N
+KeysFont color=0 0 0
+IndexesFont=Arial,8,N
+IndexesFont color=0 0 0
+TriggersFont=Arial,8,N
+TriggersFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=4000
+Brush color=210 137 2
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 64 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\VIEW]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+OWNRDISPNAMEFont=Arial,8,N
+OWNRDISPNAMEFont color=0, 0, 0
+ColumnsFont=Arial,8,N
+ColumnsFont color=0 0 0
+TablePkColumnsFont=Arial,8,U
+TablePkColumnsFont color=0, 0, 0
+TableFkColumnsFont=Arial,8,N
+TableFkColumnsFont color=0, 0, 0
+TemporaryVTablesFont=Arial,8,N
+TemporaryVTablesFont color=0 0 0
+IndexesFont=Arial,8,N
+IndexesFont color=0 0 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=4000
+Brush color=233 202 131
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\PROC]
+STRNFont=Arial,8,N
+STRNFont color=0 0 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0 0 0
+OWNRDISPNAMEFont=Arial,8,N
+OWNRDISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0 0 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4000
+Height=1000
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 108 0
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\REFR]
+SOURCEFont=Arial,8,N
+SOURCEFont color=0, 0, 0
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+DESTINATIONFont=Arial,8,N
+DESTINATIONFont color=0, 0, 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 64
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\VREF]
+SOURCEFont=Arial,8,N
+SOURCEFont color=0, 0, 0
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+DESTINATIONFont=Arial,8,N
+DESTINATIONFont color=0, 0, 0
+Line style=2
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 0 64
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\USRDEPD]
+OBJXSTRFont=Arial,8,N
+OBJXSTRFont color=0, 0, 0
+Line style=0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0, 0, 0
+Line style=0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CDMPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ENTT]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AttributesFont=Arial,8,N
+AttributesFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+EntityPrimaryAttributeFont=Arial,8,U
+EntityPrimaryAttributeFont color=0, 0, 0
+IdentifiersFont=Arial,8,N
+IdentifiersFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=4000
+Brush color=176 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 170 170
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\RLSH]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+NAMAFont=Arial,8,N
+NAMAFont color=0, 0, 0
+Line style=0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 170 170
+Shadow color=192 192 192
+Shadow=0
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+DESTINATIONFont=Arial,8,N
+DESTINATIONFont color=0, 0, 0
+
+[DisplayPreferences\Symbol\ASSC]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AttributesFont=Arial,8,N
+AttributesFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3000
+Brush color=208 208 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LINK]
+ROLEFont=Arial,8,N
+ROLEFont color=0, 0, 0
+CARDFont=Arial,8,N
+CARDFont color=0, 0, 0
+Line style=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+SOURCEFont=Arial,8,N
+SOURCEFont color=0, 0, 0
+
+[DisplayPreferences\Symbol\CDMINHR]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=Yes
+Width=1600
+Height=1000
+Brush color=176 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+
+[DisplayPreferences\Symbol\LINH]
+Line style=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\CDM]</a:DisplayPreferences>
+<a:PaperSize>(8268, 11693)</a:PaperSize>
+<a:PageMargins>((315,354), (433,354))</a:PageMargins>
+<a:PageOrientation>1</a:PageOrientation>
+<a:PaperSource>15</a:PaperSource>
+<c:Symbols>
+<o:ReferenceSymbol Id="o6">
+<a:Rect>((-48939,9599), (-4461,15050))</a:Rect>
+<a:ListOfPoints>((-11136,9599),(-11136,15050),(-48939,15050))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:TableSymbol Ref="o7"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:TableSymbol Ref="o8"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Reference Ref="o9"/>
+</c:Object>
+</o:ReferenceSymbol>
+<o:ReferenceSymbol Id="o10">
+<a:Rect>((-33111,-14850), (1014,-12366))</a:Rect>
+<a:ListOfPoints>((1014,-12375),(-15894,-12375),(-15894,-14850),(-33111,-14850))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:TableSymbol Ref="o11"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:TableSymbol Ref="o12"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Reference Ref="o13"/>
+</c:Object>
+</o:ReferenceSymbol>
+<o:ReferenceSymbol Id="o14">
+<a:Rect>((-18374,-4650), (-7124,9749))</a:Rect>
+<a:ListOfPoints>((-14513,-4650),(-14513,1257),(-10986,1257),(-10986,9749))</a:ListOfPoints>
+<a:CornerStyle>2</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:TableSymbol Ref="o15"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:TableSymbol Ref="o7"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Reference Ref="o16"/>
+</c:Object>
+</o:ReferenceSymbol>
+<o:ReferenceSymbol Id="o17">
+<a:Rect>((-10986,9891), (16339,11362))</a:Rect>
+<a:ListOfPoints>((16339,10116),(-10986,10116))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:TableSymbol Ref="o18"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:TableSymbol Ref="o7"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Reference Ref="o19"/>
+</c:Object>
+</o:ReferenceSymbol>
+<o:ReferenceSymbol Id="o20">
+<a:Rect>((-11127,-4930), (17419,-3142))</a:Rect>
+<a:ListOfPoints>((17419,-3846),(2856,-3846),(2856,-4930),(-11127,-4930))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:TableSymbol Ref="o21"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:TableSymbol Ref="o15"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Reference Ref="o22"/>
+</c:Object>
+</o:ReferenceSymbol>
+<o:ReferenceSymbol Id="o23">
+<a:Rect>((11680,-3774), (26080,10725))</a:Rect>
+<a:ListOfPoints>((17839,-3774),(17839,2213),(19922,2213),(19922,10725))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:TableSymbol Ref="o21"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:TableSymbol Ref="o18"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Reference Ref="o24"/>
+</c:Object>
+</o:ReferenceSymbol>
+<o:ReferenceSymbol Id="o25">
+<a:Rect>((5793,-14435), (26573,-5141))</a:Rect>
+<a:ListOfPoints>((18848,-5141),(18848,-13848),(5793,-13848))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:TableSymbol Ref="o21"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:TableSymbol Ref="o11"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Reference Ref="o26"/>
+</c:Object>
+</o:ReferenceSymbol>
+<o:ReferenceSymbol Id="o27">
+<a:Rect>((-56406,199), (-42306,13486))</a:Rect>
+<a:ListOfPoints>((-49356,199),(-49356,13486))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:TableSymbol Ref="o28"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:TableSymbol Ref="o8"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Reference Ref="o29"/>
+</c:Object>
+</o:ReferenceSymbol>
+<o:ReferenceSymbol Id="o30">
+<a:Rect>((-8356,-25900), (7244,-15712))</a:Rect>
+<a:ListOfPoints>((-556,-25900),(-556,-15712))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:TableSymbol Ref="o31"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:TableSymbol Ref="o11"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Reference Ref="o32"/>
+</c:Object>
+</o:ReferenceSymbol>
+<o:ReferenceSymbol Id="o33">
+<a:Rect>((-974,8867), (30338,31129))</a:Rect>
+<a:ListOfPoints>((23176,8867),(23176,30542),(-974,30542))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>11184640</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>CENTER 0 Arial,8,N
+SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:TableSymbol Ref="o18"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:TableSymbol Ref="o34"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Reference Ref="o35"/>
+</c:Object>
+</o:ReferenceSymbol>
+<o:TableSymbol Id="o7">
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-18023,4917), (-4249,14281))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+OWNRDISPNAME 0 Arial,8,N
+Columns 0 Arial,8,N
+TablePkColumns 0 Arial,8,U
+TableFkColumns 0 Arial,8,N
+Keys 0 Arial,8,N
+Indexes 0 Arial,8,N
+Triggers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Table Ref="o36"/>
+</c:Object>
+</o:TableSymbol>
+<o:TableSymbol Id="o18">
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((15203,6042), (28823,15406))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+OWNRDISPNAME 0 Arial,8,N
+Columns 0 Arial,8,N
+TablePkColumns 0 Arial,8,U
+TableFkColumns 0 Arial,8,N
+Keys 0 Arial,8,N
+Indexes 0 Arial,8,N
+Triggers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Table Ref="o37"/>
+</c:Object>
+</o:TableSymbol>
+<o:TableSymbol Id="o15">
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-19005,-6897), (-10021,-2403))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+OWNRDISPNAME 0 Arial,8,N
+Columns 0 Arial,8,N
+TablePkColumns 0 Arial,8,U
+TableFkColumns 0 Arial,8,N
+Keys 0 Arial,8,N
+Indexes 0 Arial,8,N
+Triggers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Table Ref="o38"/>
+</c:Object>
+</o:TableSymbol>
+<o:TableSymbol Id="o8">
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-56251,12803), (-41627,17297))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+OWNRDISPNAME 0 Arial,8,N
+Columns 0 Arial,8,N
+TablePkColumns 0 Arial,8,U
+TableFkColumns 0 Arial,8,N
+Keys 0 Arial,8,N
+Indexes 0 Arial,8,N
+Triggers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Table Ref="o39"/>
+</c:Object>
+</o:TableSymbol>
+<o:TableSymbol Id="o11">
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-5448,-16083), (7476,-8667))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+OWNRDISPNAME 0 Arial,8,N
+Columns 0 Arial,8,N
+TablePkColumns 0 Arial,8,U
+TableFkColumns 0 Arial,8,N
+Keys 0 Arial,8,N
+Indexes 0 Arial,8,N
+Triggers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Table Ref="o40"/>
+</c:Object>
+</o:TableSymbol>
+<o:TableSymbol Id="o12">
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-39882,-19045), (-26340,-10655))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+OWNRDISPNAME 0 Arial,8,N
+Columns 0 Arial,8,N
+TablePkColumns 0 Arial,8,U
+TableFkColumns 0 Arial,8,N
+Keys 0 Arial,8,N
+Indexes 0 Arial,8,N
+Triggers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Table Ref="o41"/>
+</c:Object>
+</o:TableSymbol>
+<o:TableSymbol Id="o34">
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-12125,29209), (1959,35651))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+OWNRDISPNAME 0 Arial,8,N
+Columns 0 Arial,8,N
+TablePkColumns 0 Arial,8,U
+TableFkColumns 0 Arial,8,N
+Keys 0 Arial,8,N
+Indexes 0 Arial,8,N
+Triggers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Table Ref="o42"/>
+</c:Object>
+</o:TableSymbol>
+<o:TableSymbol Id="o43">
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-43691,26431), (-31307,30431))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+OWNRDISPNAME 0 Arial,8,N
+Columns 0 Arial,8,N
+TablePkColumns 0 Arial,8,U
+TableFkColumns 0 Arial,8,N
+Keys 0 Arial,8,N
+Indexes 0 Arial,8,N
+Triggers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Table Ref="o44"/>
+</c:Object>
+</o:TableSymbol>
+<o:TableSymbol Id="o45">
+<a:ModificationDate>1496424962</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((26735,36219), (37033,40713))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+OWNRDISPNAME 0 Arial,8,N
+Columns 0 Arial,8,N
+TablePkColumns 0 Arial,8,U
+TableFkColumns 0 Arial,8,N
+Keys 0 Arial,8,N
+Indexes 0 Arial,8,N
+Triggers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Table Ref="o46"/>
+</c:Object>
+</o:TableSymbol>
+<o:TableSymbol Id="o21">
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((15733,-7085), (29199,-1617))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+OWNRDISPNAME 0 Arial,8,N
+Columns 0 Arial,8,N
+TablePkColumns 0 Arial,8,U
+TableFkColumns 0 Arial,8,N
+Keys 0 Arial,8,N
+Indexes 0 Arial,8,N
+Triggers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Table Ref="o47"/>
+</c:Object>
+</o:TableSymbol>
+<o:TableSymbol Id="o28">
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-56768,-5269), (-42762,3121))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+OWNRDISPNAME 0 Arial,8,N
+Columns 0 Arial,8,N
+TablePkColumns 0 Arial,8,U
+TableFkColumns 0 Arial,8,N
+Keys 0 Arial,8,N
+Indexes 0 Arial,8,N
+Triggers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Table Ref="o48"/>
+</c:Object>
+</o:TableSymbol>
+<o:TableSymbol Id="o31">
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-4701,-28549), (7605,-23080))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+OWNRDISPNAME 0 Arial,8,N
+Columns 0 Arial,8,N
+TablePkColumns 0 Arial,8,U
+TableFkColumns 0 Arial,8,N
+Keys 0 Arial,8,N
+Indexes 0 Arial,8,N
+Triggers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Table Ref="o49"/>
+</c:Object>
+</o:TableSymbol>
+<o:TableSymbol Id="o50">
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((8674,36565), (19976,42034))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+OWNRDISPNAME 0 Arial,8,N
+Columns 0 Arial,8,N
+TablePkColumns 0 Arial,8,U
+TableFkColumns 0 Arial,8,N
+Keys 0 Arial,8,N
+Indexes 0 Arial,8,N
+Triggers 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Table Ref="o51"/>
+</c:Object>
+</o:TableSymbol>
+</c:Symbols>
+</o:PhysicalDiagram>
+</c:PhysicalDiagrams>
+<c:DefaultDiagram>
+<o:PhysicalDiagram Ref="o5"/>
+</c:DefaultDiagram>
+<c:Tables>
+<o:Table Id="o36">
+<a:ObjectID>6B0A2F44-2FEC-495C-9A46-9D0E26AA7C25</a:ObjectID>
+<a:Name>Bus</a:Name>
+<a:Code>BUS</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {DBB9060B-A5F9-4C06-90F2-BB1926C5F660}
+DAT 1496424935</a:History>
+<a:TotalSavingCurrency/>
+<c:Columns>
+<o:Column Id="o52">
+<a:ObjectID>D4382747-977A-42CE-A6DF-1EE37366798E</a:ObjectID>
+<a:Name>idBus</a:Name>
+<a:Code>IDBUS</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {17415A02-9FC7-4209-BC95-6FC79E7B9B7F}
+DAT 1496424935</a:History>
+<a:DataType>SERIAL</a:DataType>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o53">
+<a:ObjectID>BD69B966-4983-4BF6-B348-2CCE1B6B7090</a:ObjectID>
+<a:Name>idCooperative</a:Name>
+<a:Code>IDCOOPERATIVE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {090CFF32-D1DB-48C8-8BF3-FF7FAB9E318E},{880FE15F-CB8E-4F77-8E08-2881A49DFA93}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o54">
+<a:ObjectID>795958E1-3A13-4926-BB66-939673B5F88F</a:ObjectID>
+<a:Name>marque</a:Name>
+<a:Code>MARQUE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {B281FF61-CD01-4F8E-94CE-42A79A36CFB4}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(50)</a:DataType>
+<a:Length>50</a:Length>
+</o:Column>
+<o:Column Id="o55">
+<a:ObjectID>DFB55F38-3256-4375-AEEA-77F190CCBFCB</a:ObjectID>
+<a:Name>matricule</a:Name>
+<a:Code>MATRICULE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {CD16AB16-89C3-4213-A631-4A220BE56573}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(50)</a:DataType>
+<a:Length>50</a:Length>
+</o:Column>
+<o:Column Id="o56">
+<a:ObjectID>496B326A-EC9B-4D63-A846-F8DC3F036CF7</a:ObjectID>
+<a:Name>consommation</a:Name>
+<a:Code>CONSOMMATION</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {93B00779-9F13-4E55-B97C-635C8A91EA1C}
+DAT 1496424935</a:History>
+<a:DataType>NUMERIC</a:DataType>
+</o:Column>
+<o:Column Id="o57">
+<a:ObjectID>7CC3A61D-C402-4AC5-A26F-D76A33518E93</a:ObjectID>
+<a:Name>nbrPlace</a:Name>
+<a:Code>NBRPLACE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {9971ABD0-733F-4A00-A5E1-C374EE028C6B}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+</o:Column>
+<o:Column Id="o58">
+<a:ObjectID>44686240-CFB4-4199-AEBD-466359AE0102</a:ObjectID>
+<a:Name>DateSortie</a:Name>
+<a:Code>DATESORTIE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {7EDD5775-C1FD-4686-A83E-0E88C066214E}
+DAT 1496424935</a:History>
+<a:DataType>DATE</a:DataType>
+</o:Column>
+<o:Column Id="o59">
+<a:ObjectID>523CADF1-7240-44DB-9260-1BAE5ABCD3DE</a:ObjectID>
+<a:Name>etat</a:Name>
+<a:Code>ETAT</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {701B0BDE-3E1A-4A2A-BA0A-FD3A90FBF69F}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+</o:Column>
+</c:Columns>
+<c:Keys>
+<o:Key Id="o60">
+<a:ObjectID>54F66438-4689-4DB4-8251-65DAA80867FD</a:ObjectID>
+<a:Name>Identifier_1</a:Name>
+<a:Code>IDENTIFIER_1</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {1D753DB9-F217-4178-969D-B66BEEAA2069}
+DAT 1496424935</a:History>
+<c:Key.Columns>
+<o:Column Ref="o52"/>
+</c:Key.Columns>
+</o:Key>
+</c:Keys>
+<c:Indexes>
+<o:Index Id="o61">
+<a:ObjectID>68609052-3BD2-4EAC-9195-0BFBA5F4A6B8</a:ObjectID>
+<a:Name>BUS_PK</a:Name>
+<a:Code>BUS_PK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:Unique>1</a:Unique>
+<c:LinkedObject>
+<o:Key Ref="o60"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o62">
+<a:ObjectID>5C74E0A9-BEB3-4519-9B67-CF52705C8B4F</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o52"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+<o:Index Id="o63">
+<a:ObjectID>CB48DDD7-D586-43B4-A116-0B6F6718BBBA</a:ObjectID>
+<a:Name>COOPERATIVE_BUS_FK</a:Name>
+<a:Code>COOPERATIVE_BUS_FK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o9"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o64">
+<a:ObjectID>4DB42BDD-44B1-4C3A-84A7-3F64D2ED7573</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o53"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+</c:Indexes>
+<c:PrimaryKey>
+<o:Key Ref="o60"/>
+</c:PrimaryKey>
+</o:Table>
+<o:Table Id="o37">
+<a:ObjectID>79C44A36-613B-4EAC-827A-CCA2976BF4D6</a:ObjectID>
+<a:Name>Trajet</a:Name>
+<a:Code>TRAJET</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {31E44E57-BB3C-4E59-A940-CA8CACE03FE6}
+DAT 1496424935</a:History>
+<a:TotalSavingCurrency/>
+<c:Columns>
+<o:Column Id="o65">
+<a:ObjectID>7AF1880F-C14E-43A6-A61D-59D9FA746D15</a:ObjectID>
+<a:Name>idTrajet</a:Name>
+<a:Code>IDTRAJET</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {B0C38CE0-54CE-447F-A294-1519FD57FFDC}
+DAT 1496424935</a:History>
+<a:DataType>SERIAL</a:DataType>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o66">
+<a:ObjectID>9B50D1D7-12F6-42AC-85CD-556C428059C9</a:ObjectID>
+<a:Name>idChauffeur</a:Name>
+<a:Code>IDCHAUFFEUR</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {247E8155-B2DB-4812-8F77-7FBD2623BD53},{092D832A-322C-47CA-8B13-096BEF3586B1}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o67">
+<a:ObjectID>C707469C-6173-4BE0-B055-FBD6F8229313</a:ObjectID>
+<a:Name>idBus</a:Name>
+<a:Code>IDBUS</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {17415A02-9FC7-4209-BC95-6FC79E7B9B7F},{C9FBAD92-44FA-40BC-8EC5-1DF4A793F5C4}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o68">
+<a:ObjectID>6218B220-D4AE-442E-B321-B545CF1AAAAA</a:ObjectID>
+<a:Name>source</a:Name>
+<a:Code>SOURCE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {7CB9EE55-C05D-45B7-B09A-8177C9DA88E0}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(100)</a:DataType>
+<a:Length>100</a:Length>
+</o:Column>
+<o:Column Id="o69">
+<a:ObjectID>4B9457A9-EDE9-488B-9378-F21F416C7794</a:ObjectID>
+<a:Name>Destination</a:Name>
+<a:Code>DESTINATION</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {CB03D409-9D4E-45C5-813C-5B6B1A68468A}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(100)</a:DataType>
+<a:Length>100</a:Length>
+</o:Column>
+<o:Column Id="o70">
+<a:ObjectID>64A5417A-D0BC-46EC-94F7-F24938BD2D51</a:ObjectID>
+<a:Name>DateDepart</a:Name>
+<a:Code>DATEDEPART</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {B7CC3E9E-6838-4720-9E8C-2EFEC9D459CA}
+DAT 1496424935</a:History>
+<a:DataType>DATE</a:DataType>
+</o:Column>
+<o:Column Id="o71">
+<a:ObjectID>6166DE4A-0385-4FC4-8141-D4C14E73BEED</a:ObjectID>
+<a:Name>heureDepart</a:Name>
+<a:Code>HEUREDEPART</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {09092995-AA45-4CA9-A051-16B2319153A9}
+DAT 1496424935</a:History>
+<a:DataType>TIME</a:DataType>
+</o:Column>
+<o:Column Id="o72">
+<a:ObjectID>43EC693E-BF41-49A6-A009-4CC942E783BE</a:ObjectID>
+<a:Name>tarif</a:Name>
+<a:Code>TARIF</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {548BB32B-4501-42AC-9865-56391D24D953}
+DAT 1496424935</a:History>
+<a:DataType>NUMERIC</a:DataType>
+</o:Column>
+</c:Columns>
+<c:Keys>
+<o:Key Id="o73">
+<a:ObjectID>81C7DEC9-3579-4C96-AA5D-2252072B0995</a:ObjectID>
+<a:Name>Identifier_1</a:Name>
+<a:Code>IDENTIFIER_1</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {FB7DFAE3-030E-4B7C-A76A-2823E5177455}
+DAT 1496424935</a:History>
+<c:Key.Columns>
+<o:Column Ref="o65"/>
+</c:Key.Columns>
+</o:Key>
+</c:Keys>
+<c:Indexes>
+<o:Index Id="o74">
+<a:ObjectID>25EC366C-F5C2-4B8A-8576-83DA6381EEF6</a:ObjectID>
+<a:Name>TRAJET_PK</a:Name>
+<a:Code>TRAJET_PK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:Unique>1</a:Unique>
+<c:LinkedObject>
+<o:Key Ref="o73"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o75">
+<a:ObjectID>D8ED729E-A8E2-462F-9BF0-4EE50AD5F554</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o65"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+<o:Index Id="o76">
+<a:ObjectID>8F0DCE1B-89F9-4AAB-ACA1-094905F895EC</a:ObjectID>
+<a:Name>RELATIONSHIP_1_FK</a:Name>
+<a:Code>RELATIONSHIP_1_FK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o19"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o77">
+<a:ObjectID>DB3E4F4D-0F93-489B-9B04-1CCF9E27E948</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o67"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+<o:Index Id="o78">
+<a:ObjectID>762E1065-B24E-47F5-90CB-36D655AADAF8</a:ObjectID>
+<a:Name>RELATION_7_FK</a:Name>
+<a:Code>RELATION_7_FK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o35"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o79">
+<a:ObjectID>633AA2CE-326D-43CE-ACF8-8ADF7FB3BFCD</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o66"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+</c:Indexes>
+<c:PrimaryKey>
+<o:Key Ref="o73"/>
+</c:PrimaryKey>
+</o:Table>
+<o:Table Id="o38">
+<a:ObjectID>AE826D35-F9AF-48FA-AAAA-4DF8ABFDA2A1</a:ObjectID>
+<a:Name>Place</a:Name>
+<a:Code>PLACE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {B5EBA757-58FD-4D39-B7AE-8D4AA692BEB3}
+DAT 1496424935</a:History>
+<a:TotalSavingCurrency/>
+<c:Columns>
+<o:Column Id="o80">
+<a:ObjectID>E1D2142E-A375-40D1-8AA0-C5B5F12E9BE3</a:ObjectID>
+<a:Name>idPlace</a:Name>
+<a:Code>IDPLACE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {4BF3442E-5CD9-43BC-B1B9-CAEAA5F22A01}
+DAT 1496424935</a:History>
+<a:DataType>SERIAL</a:DataType>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o81">
+<a:ObjectID>B468591E-48C9-49C1-ACCD-12F6A485FAC4</a:ObjectID>
+<a:Name>idBus</a:Name>
+<a:Code>IDBUS</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {17415A02-9FC7-4209-BC95-6FC79E7B9B7F},{C9E62BC3-BE65-46FE-B101-E94C81FCFBA3}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o82">
+<a:ObjectID>DC186F17-2C20-4CF1-86D4-739951716E75</a:ObjectID>
+<a:Name>numero</a:Name>
+<a:Code>NUMERO</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {DAF6019C-070F-4FB6-A508-02AF24E74AD5}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+</o:Column>
+</c:Columns>
+<c:Keys>
+<o:Key Id="o83">
+<a:ObjectID>DEBE7A4A-754F-4794-A4DD-135B947E84EE</a:ObjectID>
+<a:Name>Identifier_1</a:Name>
+<a:Code>IDENTIFIER_1</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {DB681290-E6B8-461C-A9E2-973C13853AC9}
+DAT 1496424935</a:History>
+<c:Key.Columns>
+<o:Column Ref="o80"/>
+</c:Key.Columns>
+</o:Key>
+</c:Keys>
+<c:Indexes>
+<o:Index Id="o84">
+<a:ObjectID>D63FB699-55F0-4D45-9B77-9F517E04616D</a:ObjectID>
+<a:Name>PLACE_PK</a:Name>
+<a:Code>PLACE_PK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:Unique>1</a:Unique>
+<c:LinkedObject>
+<o:Key Ref="o83"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o85">
+<a:ObjectID>CCDAFFFA-F505-4993-88C8-E705CEA4DC16</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o80"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+<o:Index Id="o86">
+<a:ObjectID>CA40CBFD-F2DF-4F4A-8281-DE13E960AC8B</a:ObjectID>
+<a:Name>ASSOCIATION_9_FK</a:Name>
+<a:Code>ASSOCIATION_9_FK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o16"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o87">
+<a:ObjectID>93D59672-AA02-44AF-90E1-5B91B09546E5</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o81"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+</c:Indexes>
+<c:PrimaryKey>
+<o:Key Ref="o83"/>
+</c:PrimaryKey>
+</o:Table>
+<o:Table Id="o39">
+<a:ObjectID>94EC6737-084F-4DC2-B5E3-9C8216863854</a:ObjectID>
+<a:Name>Cooperative</a:Name>
+<a:Code>COOPERATIVE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {C0A2AA26-D78A-47EA-8F9D-C0431C2484C1}
+DAT 1496424935</a:History>
+<a:TotalSavingCurrency/>
+<c:Columns>
+<o:Column Id="o88">
+<a:ObjectID>C77A90A9-0726-458E-9075-6B527AD9D4D7</a:ObjectID>
+<a:Name>idCooperative</a:Name>
+<a:Code>IDCOOPERATIVE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {090CFF32-D1DB-48C8-8BF3-FF7FAB9E318E}
+DAT 1496424935</a:History>
+<a:DataType>SERIAL</a:DataType>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o89">
+<a:ObjectID>B7D9B567-4FD8-4595-B83B-FC544C03BB0F</a:ObjectID>
+<a:Name>libelle</a:Name>
+<a:Code>LIBELLE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {F6AF3583-9D76-43AD-9645-6658FCCEE95B}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(100)</a:DataType>
+<a:Length>100</a:Length>
+</o:Column>
+<o:Column Id="o90">
+<a:ObjectID>D61E6E97-D878-41D5-B77B-FAAC09ECD8FE</a:ObjectID>
+<a:Name>aneedecreation</a:Name>
+<a:Code>ANEEDECREATION</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {245EFD73-C337-4CA4-B016-B9B02E5815C0}
+DAT 1496424935</a:History>
+<a:DataType>DATE</a:DataType>
+</o:Column>
+</c:Columns>
+<c:Keys>
+<o:Key Id="o91">
+<a:ObjectID>585F9AC8-3E2F-42A3-8360-A3255B60F77F</a:ObjectID>
+<a:Name>Identifier_1</a:Name>
+<a:Code>IDENTIFIER_1</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {9E309D6F-0004-4A06-97BC-9B89004B6469}
+DAT 1496424935</a:History>
+<c:Key.Columns>
+<o:Column Ref="o88"/>
+</c:Key.Columns>
+</o:Key>
+</c:Keys>
+<c:Indexes>
+<o:Index Id="o92">
+<a:ObjectID>CA80CD6C-5D9B-408E-A8FF-5D7C24F3533C</a:ObjectID>
+<a:Name>COOPERATIVE_PK</a:Name>
+<a:Code>COOPERATIVE_PK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:Unique>1</a:Unique>
+<c:LinkedObject>
+<o:Key Ref="o91"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o93">
+<a:ObjectID>CC6349ED-6F83-41BD-A39A-6B07F507C1C5</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o88"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+</c:Indexes>
+<c:PrimaryKey>
+<o:Key Ref="o91"/>
+</c:PrimaryKey>
+</o:Table>
+<o:Table Id="o40">
+<a:ObjectID>28571164-1088-46CC-8888-8802BFF140AA</a:ObjectID>
+<a:Name>Reservation</a:Name>
+<a:Code>RESERVATION</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {C6B6A105-69AC-4B26-A191-D4D1F3F35AC0}
+DAT 1496424935</a:History>
+<a:TotalSavingCurrency/>
+<c:Columns>
+<o:Column Id="o94">
+<a:ObjectID>4DE6F8BE-31C4-4219-98D4-85085D5FFC80</a:ObjectID>
+<a:Name>idReservation</a:Name>
+<a:Code>IDRESERVATION</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {24430F38-A10B-487C-818F-3875333B1787}
+DAT 1496424935</a:History>
+<a:DataType>SERIAL</a:DataType>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o95">
+<a:ObjectID>E9E9242D-5C46-439A-982F-23C4EE5E243A</a:ObjectID>
+<a:Name>idClient</a:Name>
+<a:Code>IDCLIENT</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {72245AC0-ADF1-4F42-8E39-ACC291864CC1},{8B05CB31-D08A-4DE8-B6FD-6294449CD157}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o96">
+<a:ObjectID>D92EE82E-EA4F-4BF8-8D62-CAAF6F2FD6F8</a:ObjectID>
+<a:Name>Statut</a:Name>
+<a:Code>STATUT</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:Comment>SANS STATUT = 0
+ANNULE = -1
+CONFIRME = 1
+PAYE = 2
+</a:Comment>
+<a:History>ORG {1DB73EF5-2E27-40E7-8D5A-14F897FD44F7}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+</o:Column>
+<o:Column Id="o97">
+<a:ObjectID>CDBDDED2-ECC7-409D-B752-DFDF41322FF1</a:ObjectID>
+<a:Name>DateReservation</a:Name>
+<a:Code>DATERESERVATION</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {2912CF11-5C5C-433D-904B-40F8CE924ACC}
+DAT 1496424935</a:History>
+<a:DataType>DATE</a:DataType>
+</o:Column>
+<o:Column Id="o98">
+<a:ObjectID>D5BEE072-AFD8-40B8-9AC8-87BA0E666F34</a:ObjectID>
+<a:Name>total</a:Name>
+<a:Code>TOTAL</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {3DD772B5-98DA-4C37-B031-F805B312592C}
+DAT 1496424935</a:History>
+<a:DataType>NUMERIC</a:DataType>
+</o:Column>
+<o:Column Id="o99">
+<a:ObjectID>7A678B26-A5FB-4ADB-9E97-2FA422ED94D5</a:ObjectID>
+<a:Name>paye</a:Name>
+<a:Code>PAYE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {EB46EA56-530E-443E-809A-3EC571F0E103}
+DAT 1496424935</a:History>
+<a:DataType>NUMERIC</a:DataType>
+</o:Column>
+</c:Columns>
+<c:Keys>
+<o:Key Id="o100">
+<a:ObjectID>675BAEFE-C8ED-4E5B-A32F-A8E089570D1C</a:ObjectID>
+<a:Name>Identifier_1</a:Name>
+<a:Code>IDENTIFIER_1</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {7722CE0E-CD74-41F0-AFFF-8B70FE2C2BB5}
+DAT 1496424935</a:History>
+<c:Key.Columns>
+<o:Column Ref="o94"/>
+</c:Key.Columns>
+</o:Key>
+</c:Keys>
+<c:Indexes>
+<o:Index Id="o101">
+<a:ObjectID>67615740-6537-45E4-80D5-8F0E745C68E5</a:ObjectID>
+<a:Name>RESERVATION_PK</a:Name>
+<a:Code>RESERVATION_PK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:Unique>1</a:Unique>
+<c:LinkedObject>
+<o:Key Ref="o100"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o102">
+<a:ObjectID>13E4B19F-8483-4D3C-A5A9-E3B42297348D</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o94"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+<o:Index Id="o103">
+<a:ObjectID>F86C93F5-D364-4194-8AF6-6B6DEA008A2F</a:ObjectID>
+<a:Name>CLIENT_RESERVATION_FK</a:Name>
+<a:Code>CLIENT_RESERVATION_FK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o13"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o104">
+<a:ObjectID>616F4A86-B5AC-4C67-A494-9D7BB3653459</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o95"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+</c:Indexes>
+<c:PrimaryKey>
+<o:Key Ref="o100"/>
+</c:PrimaryKey>
+</o:Table>
+<o:Table Id="o41">
+<a:ObjectID>38DC370E-15AA-4C2A-A8DB-61B3B4F40F64</a:ObjectID>
+<a:Name>Client</a:Name>
+<a:Code>CLIENT</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {147CAB9C-F8F8-48F3-B735-5342A31D0929}
+DAT 1496424935</a:History>
+<a:TotalSavingCurrency/>
+<c:Columns>
+<o:Column Id="o105">
+<a:ObjectID>0F55B0EF-D93B-47E7-9D7A-C8CA135185B5</a:ObjectID>
+<a:Name>idClient</a:Name>
+<a:Code>IDCLIENT</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {72245AC0-ADF1-4F42-8E39-ACC291864CC1}
+DAT 1496424935</a:History>
+<a:DataType>SERIAL</a:DataType>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o106">
+<a:ObjectID>FBA3D3BF-F8F9-4A82-BD06-117A4743DAAD</a:ObjectID>
+<a:Name>nom</a:Name>
+<a:Code>NOM</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {A2BA149D-303A-44E2-B942-80DA3F97E8B5}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(50)</a:DataType>
+<a:Length>50</a:Length>
+</o:Column>
+<o:Column Id="o107">
+<a:ObjectID>E66B2792-0B80-43F9-AAD1-9F1FE696C1F0</a:ObjectID>
+<a:Name>prenom</a:Name>
+<a:Code>PRENOM</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {1A5B03BE-F25F-48F6-A6C0-61DD3B097A6F}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(50)</a:DataType>
+<a:Length>50</a:Length>
+</o:Column>
+<o:Column Id="o108">
+<a:ObjectID>2533A17F-684D-4E66-825C-1EB0AD23B03A</a:ObjectID>
+<a:Name>CIN</a:Name>
+<a:Code>CIN</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {966C1B16-6719-4DB7-AFA8-CB346E9C9CF1}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(50)</a:DataType>
+<a:Length>50</a:Length>
+</o:Column>
+<o:Column Id="o109">
+<a:ObjectID>1F291A49-B7B4-4728-8F5B-DCD94DA75CBD</a:ObjectID>
+<a:Name>Contact</a:Name>
+<a:Code>CONTACT</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {712BC1A3-4AEC-4612-9785-A42589CB19D6}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(50)</a:DataType>
+<a:Length>50</a:Length>
+</o:Column>
+<o:Column Id="o110">
+<a:ObjectID>058468FE-DB57-4B33-BDA1-13AD7DD39CEA</a:ObjectID>
+<a:Name>email</a:Name>
+<a:Code>EMAIL</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {AFF4859B-4437-434F-BADB-41109DDA87DC}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(59)</a:DataType>
+<a:Length>59</a:Length>
+</o:Column>
+<o:Column Id="o111">
+<a:ObjectID>AB2B7A28-E6E6-48AB-9937-E2886B80DB24</a:ObjectID>
+<a:Name>motdepassse</a:Name>
+<a:Code>MOTDEPASSSE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {96071AD9-5F48-43E4-9493-5720727DD1DB}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(100)</a:DataType>
+<a:Length>100</a:Length>
+</o:Column>
+</c:Columns>
+<c:Keys>
+<o:Key Id="o112">
+<a:ObjectID>55621029-1C87-4740-B32B-6AD2757645D8</a:ObjectID>
+<a:Name>Identifier_1</a:Name>
+<a:Code>IDENTIFIER_1</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {55D58F74-CF90-4DC2-9E49-6FFE41543A67}
+DAT 1496424935</a:History>
+<c:Key.Columns>
+<o:Column Ref="o105"/>
+</c:Key.Columns>
+</o:Key>
+</c:Keys>
+<c:Indexes>
+<o:Index Id="o113">
+<a:ObjectID>D83DAA55-A060-4BE4-A047-C15938DA27AD</a:ObjectID>
+<a:Name>CLIENT_PK</a:Name>
+<a:Code>CLIENT_PK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:Unique>1</a:Unique>
+<c:LinkedObject>
+<o:Key Ref="o112"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o114">
+<a:ObjectID>4BD96A9E-DAD0-4634-8364-B219704CCEA6</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o105"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+</c:Indexes>
+<c:PrimaryKey>
+<o:Key Ref="o112"/>
+</c:PrimaryKey>
+</o:Table>
+<o:Table Id="o42">
+<a:ObjectID>35A3B2C9-D757-43A0-893C-EB81BCB4DA83</a:ObjectID>
+<a:Name>Chauffeur</a:Name>
+<a:Code>CHAUFFEUR</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {36E7927F-684F-49A9-9661-6334C74A1C49}
+DAT 1496424935</a:History>
+<a:TotalSavingCurrency/>
+<c:Columns>
+<o:Column Id="o115">
+<a:ObjectID>72E32D38-36B1-4D19-BFAA-BFCA5D0EDCC9</a:ObjectID>
+<a:Name>idChauffeur</a:Name>
+<a:Code>IDCHAUFFEUR</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {247E8155-B2DB-4812-8F77-7FBD2623BD53}
+DAT 1496424935</a:History>
+<a:DataType>SERIAL</a:DataType>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o116">
+<a:ObjectID>A1333B52-E670-47EB-B20D-7157D8671814</a:ObjectID>
+<a:Name>nom</a:Name>
+<a:Code>NOM</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {19F6619E-11A5-406F-B1F4-DCCBB8704EA3}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(50)</a:DataType>
+<a:Length>50</a:Length>
+</o:Column>
+<o:Column Id="o117">
+<a:ObjectID>2E80EC1B-AE3D-41FA-89F1-F80E91FAEAE2</a:ObjectID>
+<a:Name>prenom</a:Name>
+<a:Code>PRENOM</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {E2A6880E-5307-4288-B858-A6350A1ECB57}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(50)</a:DataType>
+<a:Length>50</a:Length>
+</o:Column>
+<o:Column Id="o118">
+<a:ObjectID>8D62AAFF-2990-49AA-BB13-F2EF30A9906F</a:ObjectID>
+<a:Name>CIN</a:Name>
+<a:Code>CIN</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {CE67EF78-3507-4615-946C-BB90252DBDD4}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(50)</a:DataType>
+<a:Length>50</a:Length>
+</o:Column>
+<o:Column Id="o119">
+<a:ObjectID>D8DA8C9C-029A-41E8-A21C-DD226303A440</a:ObjectID>
+<a:Name>DateEmbauche</a:Name>
+<a:Code>DATEEMBAUCHE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {C6E79A6C-575C-40B3-8C0E-33BB00B7B6FC}
+DAT 1496424935</a:History>
+<a:DataType>DATE</a:DataType>
+</o:Column>
+</c:Columns>
+<c:Keys>
+<o:Key Id="o120">
+<a:ObjectID>20C3BC89-C535-47B4-9ADA-E055180A0CF0</a:ObjectID>
+<a:Name>Identifier_1</a:Name>
+<a:Code>IDENTIFIER_1</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {244839CC-58C1-48BB-B976-01AE52CA26F0}
+DAT 1496424935</a:History>
+<c:Key.Columns>
+<o:Column Ref="o115"/>
+</c:Key.Columns>
+</o:Key>
+</c:Keys>
+<c:Indexes>
+<o:Index Id="o121">
+<a:ObjectID>3EEE106E-F143-4313-A2E2-64C53BD0F6A2</a:ObjectID>
+<a:Name>CHAUFFEUR_PK</a:Name>
+<a:Code>CHAUFFEUR_PK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:Unique>1</a:Unique>
+<c:LinkedObject>
+<o:Key Ref="o120"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o122">
+<a:ObjectID>E4525A47-24D1-432F-B6BB-8E79C5E49145</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o115"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+</c:Indexes>
+<c:PrimaryKey>
+<o:Key Ref="o120"/>
+</c:PrimaryKey>
+</o:Table>
+<o:Table Id="o44">
+<a:ObjectID>1C2E86DC-65DB-4432-9CF5-ED50EE5A73D9</a:ObjectID>
+<a:Name>Marque</a:Name>
+<a:Code>MARQUE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {32D71214-1761-4EA0-8500-F669E91EB0E8}
+DAT 1496424935</a:History>
+<a:TotalSavingCurrency/>
+<c:Columns>
+<o:Column Id="o123">
+<a:ObjectID>73F2ED88-6E43-437E-A80C-D47C1B7110A5</a:ObjectID>
+<a:Name>idMarque</a:Name>
+<a:Code>IDMARQUE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {9D44E742-AE08-4606-94C2-7DA014D51FED}
+DAT 1496424935</a:History>
+<a:DataType>SERIAL</a:DataType>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o124">
+<a:ObjectID>8B0E7683-9363-49D5-9BCC-661153BF40D5</a:ObjectID>
+<a:Name>libelle</a:Name>
+<a:Code>LIBELLE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {59631E60-B325-421B-AC87-D212DF0368BB}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(100)</a:DataType>
+<a:Length>100</a:Length>
+</o:Column>
+</c:Columns>
+<c:Keys>
+<o:Key Id="o125">
+<a:ObjectID>9C7C90E8-EA2F-42A2-8ABB-91AEBC3165A0</a:ObjectID>
+<a:Name>Identifier_1</a:Name>
+<a:Code>IDENTIFIER_1</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {9D0413E8-3104-4B5C-8E01-E2428F488B70}
+DAT 1496424935</a:History>
+<c:Key.Columns>
+<o:Column Ref="o123"/>
+</c:Key.Columns>
+</o:Key>
+</c:Keys>
+<c:Indexes>
+<o:Index Id="o126">
+<a:ObjectID>40C2A7E8-A26B-4665-8852-0FE2B066271D</a:ObjectID>
+<a:Name>MARQUE_PK</a:Name>
+<a:Code>MARQUE_PK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:Unique>1</a:Unique>
+<c:LinkedObject>
+<o:Key Ref="o125"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o127">
+<a:ObjectID>A1D5D7DF-AE48-4CAE-8553-B0D6623E25A7</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o123"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+</c:Indexes>
+<c:PrimaryKey>
+<o:Key Ref="o125"/>
+</c:PrimaryKey>
+</o:Table>
+<o:Table Id="o46">
+<a:ObjectID>0D14025D-A69A-48DB-B4C6-2259C505BA0A</a:ObjectID>
+<a:Name>HistoriqueTarif</a:Name>
+<a:Code>HISTORIQUETARIF</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {E93E6F8C-4723-4B54-A6CF-A1E5CC287774}
+DAT 1496424935</a:History>
+<a:TotalSavingCurrency/>
+<c:Columns>
+<o:Column Id="o128">
+<a:ObjectID>12B80158-554C-414A-8BE4-01E1A60899E3</a:ObjectID>
+<a:Name>idTarif</a:Name>
+<a:Code>IDTARIF</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {637EE5AC-6463-41D6-8422-39A15F843F52}
+DAT 1496424935</a:History>
+<a:DataType>SERIAL</a:DataType>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o129">
+<a:ObjectID>6617533B-CD82-4CC6-AB95-F525A6F517A0</a:ObjectID>
+<a:Name>prix</a:Name>
+<a:Code>PRIX</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {142903CF-BF72-43B4-BFF3-1D4436AF3548}
+DAT 1496424935</a:History>
+<a:DataType>NUMERIC</a:DataType>
+</o:Column>
+<o:Column Id="o130">
+<a:ObjectID>4E2FDB69-0C63-4E1C-BD69-056280C38032</a:ObjectID>
+<a:Name>DateTarif</a:Name>
+<a:Code>DATETARIF</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {7F3932AF-5637-4485-8130-9E7AC4AAF9A8}
+DAT 1496424935</a:History>
+<a:DataType>DATE</a:DataType>
+</o:Column>
+</c:Columns>
+<c:Keys>
+<o:Key Id="o131">
+<a:ObjectID>A929DE67-DECE-4244-AEDB-578659C8FADE</a:ObjectID>
+<a:Name>Identifier_1</a:Name>
+<a:Code>IDENTIFIER_1</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {884A420B-C6FA-4558-9EC7-DD6BCE025B60}
+DAT 1496424935</a:History>
+<c:Key.Columns>
+<o:Column Ref="o128"/>
+</c:Key.Columns>
+</o:Key>
+</c:Keys>
+<c:Indexes>
+<o:Index Id="o132">
+<a:ObjectID>E2929DDF-340A-416D-B0E5-A5C04DFB610C</a:ObjectID>
+<a:Name>HISTORIQUETARIF_PK</a:Name>
+<a:Code>HISTORIQUETARIF_PK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:Unique>1</a:Unique>
+<c:LinkedObject>
+<o:Key Ref="o131"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o133">
+<a:ObjectID>844ABCC8-D760-428C-B1B2-2CAAE7233FE5</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o128"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+</c:Indexes>
+<c:PrimaryKey>
+<o:Key Ref="o131"/>
+</c:PrimaryKey>
+</o:Table>
+<o:Table Id="o47">
+<a:ObjectID>08BC54A7-E9C6-43B8-9516-06C1383C7AEC</a:ObjectID>
+<a:Name>Place_Reservation</a:Name>
+<a:Code>PLACE_RESERVATION</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {A0B0AAA6-7322-4B4F-BC97-3519DE71DB06}
+DAT 1496424935</a:History>
+<a:TotalSavingCurrency/>
+<c:Columns>
+<o:Column Id="o134">
+<a:ObjectID>67ACC2C4-C12F-4AF1-9569-D32DEB8C8FFB</a:ObjectID>
+<a:Name>idPlaceReservation</a:Name>
+<a:Code>IDPLACERESERVATION</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {D34553E1-37B1-4F32-ADEA-09FCB39FDDD3}
+DAT 1496424935</a:History>
+<a:DataType>SERIAL</a:DataType>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o135">
+<a:ObjectID>1B35A2BA-2ABB-46C7-BD67-9E8AB4E08053</a:ObjectID>
+<a:Name>idTrajet</a:Name>
+<a:Code>IDTRAJET</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {B0C38CE0-54CE-447F-A294-1519FD57FFDC},{E67FF338-7D4C-4587-8B7D-9AC0297E6837}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o136">
+<a:ObjectID>9FC1507C-A1A1-4BA9-8962-E8F679B43F3C</a:ObjectID>
+<a:Name>idReservation</a:Name>
+<a:Code>IDRESERVATION</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {24430F38-A10B-487C-818F-3875333B1787},{1910DD47-9761-4BD3-9293-3FFA7E122BE1}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o137">
+<a:ObjectID>38385754-7A27-409D-A659-5736A05EA984</a:ObjectID>
+<a:Name>idPlace</a:Name>
+<a:Code>IDPLACE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {4BF3442E-5CD9-43BC-B1B9-CAEAA5F22A01},{5B50544B-6D4D-41FB-BB11-6A31E41C149B}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+</c:Columns>
+<c:Keys>
+<o:Key Id="o138">
+<a:ObjectID>29E77C1C-A232-4DDB-B9B2-1E66925D82DB</a:ObjectID>
+<a:Name>Identifier_1</a:Name>
+<a:Code>IDENTIFIER_1</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {2D6B044D-46FB-475B-9BD2-50F9A715BBDD}
+DAT 1496424935</a:History>
+<c:Key.Columns>
+<o:Column Ref="o134"/>
+</c:Key.Columns>
+</o:Key>
+</c:Keys>
+<c:Indexes>
+<o:Index Id="o139">
+<a:ObjectID>0CB87A26-9D27-4EB0-90FE-D413FE0A37D1</a:ObjectID>
+<a:Name>PLACE_RESERVATION_PK</a:Name>
+<a:Code>PLACE_RESERVATION_PK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:Unique>1</a:Unique>
+<c:LinkedObject>
+<o:Key Ref="o138"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o140">
+<a:ObjectID>E214947E-4E41-49F7-B89A-32AC4451D4A6</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o134"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+<o:Index Id="o141">
+<a:ObjectID>B66C53B2-75AC-42E1-92F2-9F1E11E7DDDF</a:ObjectID>
+<a:Name>RELATIONSHIP_2_FK</a:Name>
+<a:Code>RELATIONSHIP_2_FK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o22"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o142">
+<a:ObjectID>6A9FD214-191E-402B-BE2F-C7820DD76B30</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o137"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+<o:Index Id="o143">
+<a:ObjectID>E52058BA-DD67-4236-9A47-57CBAB9CA900</a:ObjectID>
+<a:Name>RELATIONSHIP_3_FK</a:Name>
+<a:Code>RELATIONSHIP_3_FK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o24"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o144">
+<a:ObjectID>2DF4DC2F-F734-4740-821A-DCC3FEE40CDE</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o135"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+<o:Index Id="o145">
+<a:ObjectID>A8517922-971C-4F89-90E9-5CB666A1F294</a:ObjectID>
+<a:Name>RELATIONSHIP_4_FK</a:Name>
+<a:Code>RELATIONSHIP_4_FK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o26"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o146">
+<a:ObjectID>EB4C86AF-D9E4-458F-AB14-F73BA167219A</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o136"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+</c:Indexes>
+<c:PrimaryKey>
+<o:Key Ref="o138"/>
+</c:PrimaryKey>
+</o:Table>
+<o:Table Id="o48">
+<a:ObjectID>0F9D230A-3424-44BF-9576-81A173161BE8</a:ObjectID>
+<a:Name>Admin</a:Name>
+<a:Code>ADMIN</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {5C5B074B-5D85-4B9E-8AFC-30CDFD9C5592}
+DAT 1496424935</a:History>
+<a:TotalSavingCurrency/>
+<c:Columns>
+<o:Column Id="o147">
+<a:ObjectID>35432143-76D7-4DF1-A71E-46A48CAB3A3F</a:ObjectID>
+<a:Name>idAdmin</a:Name>
+<a:Code>IDADMIN</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {2C54BD6E-CC69-403D-BEED-14283A7456A7}
+DAT 1496424935</a:History>
+<a:DataType>SERIAL</a:DataType>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o148">
+<a:ObjectID>DD3CE9A0-4D1C-4F25-94AD-385FD468C1FD</a:ObjectID>
+<a:Name>idCooperative</a:Name>
+<a:Code>IDCOOPERATIVE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {090CFF32-D1DB-48C8-8BF3-FF7FAB9E318E},{C51CCE37-93FE-4A93-BFE6-CA6D5C13B3C3}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o149">
+<a:ObjectID>71681FD4-1F08-483E-A05F-ED68BABAC133</a:ObjectID>
+<a:Name>nom</a:Name>
+<a:Code>NOM</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {4C014857-5C9B-4AA4-AC37-4503BAC0FD7A}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(50)</a:DataType>
+<a:Length>50</a:Length>
+</o:Column>
+<o:Column Id="o150">
+<a:ObjectID>A27863D9-224E-4CC1-B64D-65AC2331E3A0</a:ObjectID>
+<a:Name>prenom</a:Name>
+<a:Code>PRENOM</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {ABA57577-7107-4C92-B290-4811F52A84A4}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(50)</a:DataType>
+<a:Length>50</a:Length>
+</o:Column>
+<o:Column Id="o151">
+<a:ObjectID>6692DAED-8253-41C0-B3F3-A80CC18BE8B6</a:ObjectID>
+<a:Name>email</a:Name>
+<a:Code>EMAIL</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {7AC9AB5B-BE8E-4A2A-9711-8ED0F8006D88}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(59)</a:DataType>
+<a:Length>59</a:Length>
+</o:Column>
+<o:Column Id="o152">
+<a:ObjectID>A116102C-604C-4A33-9436-2257F3303DF4</a:ObjectID>
+<a:Name>motdepasse</a:Name>
+<a:Code>MOTDEPASSE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {52F1C239-817F-4D08-8FA5-D36B26037995}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(100)</a:DataType>
+<a:Length>100</a:Length>
+</o:Column>
+<o:Column Id="o153">
+<a:ObjectID>025EF8DE-5519-425B-96D4-C1D5D255EBBF</a:ObjectID>
+<a:Name>super</a:Name>
+<a:Code>SUPER</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {D473128C-55AB-4744-BA7F-63E30DE10241}
+DAT 1496424935</a:History>
+<a:DataType>BOOL</a:DataType>
+</o:Column>
+</c:Columns>
+<c:Keys>
+<o:Key Id="o154">
+<a:ObjectID>A3382BFE-6881-45CF-A6F2-77612BD06164</a:ObjectID>
+<a:Name>Identifier_1</a:Name>
+<a:Code>IDENTIFIER_1</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {6A28A5E4-AB65-4E4D-9BE0-D2BD69F7F60A}
+DAT 1496424935</a:History>
+<c:Key.Columns>
+<o:Column Ref="o147"/>
+</c:Key.Columns>
+</o:Key>
+</c:Keys>
+<c:Indexes>
+<o:Index Id="o155">
+<a:ObjectID>BADFE046-2FD8-44EC-8CDE-D1B7FB55A9B6</a:ObjectID>
+<a:Name>ADMIN_PK</a:Name>
+<a:Code>ADMIN_PK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:Unique>1</a:Unique>
+<c:LinkedObject>
+<o:Key Ref="o154"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o156">
+<a:ObjectID>10BC1C86-55EA-4304-8527-A4F3498428E4</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o147"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+<o:Index Id="o157">
+<a:ObjectID>B93A2B9B-D62C-4DD3-B5B5-80B710AC0FAD</a:ObjectID>
+<a:Name>RELATIONSHIP_5_FK</a:Name>
+<a:Code>RELATIONSHIP_5_FK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o29"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o158">
+<a:ObjectID>5E79E8DF-FE7B-46A5-8E51-839CCECCDA17</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o148"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+</c:Indexes>
+<c:PrimaryKey>
+<o:Key Ref="o154"/>
+</c:PrimaryKey>
+</o:Table>
+<o:Table Id="o49">
+<a:ObjectID>DB213347-0901-4862-A4B9-83E2F863561F</a:ObjectID>
+<a:Name>Payement</a:Name>
+<a:Code>PAYEMENT</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {222BD875-53C7-4AA9-886E-EC0EC7218492}
+DAT 1496424935</a:History>
+<a:TotalSavingCurrency/>
+<c:Columns>
+<o:Column Id="o159">
+<a:ObjectID>21D49422-AFCF-4239-99D3-599608F8C467</a:ObjectID>
+<a:Name>idPayement</a:Name>
+<a:Code>IDPAYEMENT</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {312E6DA2-7491-4628-BADD-7DDFEC0AF6B2}
+DAT 1496424935</a:History>
+<a:DataType>SERIAL</a:DataType>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o160">
+<a:ObjectID>36C919D2-1CA1-4A01-BF07-6D55E3A4F2F9</a:ObjectID>
+<a:Name>idReservation</a:Name>
+<a:Code>IDRESERVATION</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {24430F38-A10B-487C-818F-3875333B1787},{35D9A7EE-4D34-45BC-B653-9DC47CD23B6E}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o161">
+<a:ObjectID>3170699A-EAC1-425F-9CDF-745F3EC49E76</a:ObjectID>
+<a:Name>montant</a:Name>
+<a:Code>MONTANT</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {95F58A73-E2BE-4EE2-9670-E3DB142D988E}
+DAT 1496424935</a:History>
+<a:DataType>NUMERIC</a:DataType>
+</o:Column>
+<o:Column Id="o162">
+<a:ObjectID>FA4AB958-F9F8-4A72-9C9C-45E19A60053E</a:ObjectID>
+<a:Name>datePayement</a:Name>
+<a:Code>DATEPAYEMENT</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {208BD494-2404-40EA-A655-4097316947E7}
+DAT 1496424935</a:History>
+<a:DataType>DATE</a:DataType>
+</o:Column>
+</c:Columns>
+<c:Keys>
+<o:Key Id="o163">
+<a:ObjectID>2C1094EC-1269-4BE4-87F9-CE78228F90D8</a:ObjectID>
+<a:Name>Identifier_1</a:Name>
+<a:Code>IDENTIFIER_1</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {02070C4D-02A2-4CD4-A117-7A053950DB4F}
+DAT 1496424935</a:History>
+<c:Key.Columns>
+<o:Column Ref="o159"/>
+</c:Key.Columns>
+</o:Key>
+</c:Keys>
+<c:Indexes>
+<o:Index Id="o164">
+<a:ObjectID>9542A617-2899-467F-B0F7-B58C50E18113</a:ObjectID>
+<a:Name>PAYEMENT_PK</a:Name>
+<a:Code>PAYEMENT_PK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:Unique>1</a:Unique>
+<c:LinkedObject>
+<o:Key Ref="o163"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o165">
+<a:ObjectID>F5F7CC0A-65D5-49A8-9F88-43889946F638</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o159"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+<o:Index Id="o166">
+<a:ObjectID>8703CB60-2866-4A66-A871-68474CBCA7F3</a:ObjectID>
+<a:Name>RELATIONSHIP_6_FK</a:Name>
+<a:Code>RELATIONSHIP_6_FK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o32"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o167">
+<a:ObjectID>C60BF04D-DD21-4522-9EA8-F8E1C566D9C6</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o160"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+</c:Indexes>
+<c:PrimaryKey>
+<o:Key Ref="o163"/>
+</c:PrimaryKey>
+</o:Table>
+<o:Table Id="o51">
+<a:ObjectID>602587CA-B3DE-4508-846F-14D81A2C916D</a:ObjectID>
+<a:Name>Ville</a:Name>
+<a:Code>VILLE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {055712C5-B022-4DC0-A73F-9D4C488BE984}
+DAT 1496424935</a:History>
+<a:TotalSavingCurrency/>
+<c:Columns>
+<o:Column Id="o168">
+<a:ObjectID>BA529D14-CEA6-4A52-ACB8-C69A971A0C9A</a:ObjectID>
+<a:Name>idVille</a:Name>
+<a:Code>IDVILLE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {646178E6-4ADA-4369-8706-5C3C755CE571}
+DAT 1496424935</a:History>
+<a:DataType>SERIAL</a:DataType>
+<a:Mandatory>1</a:Mandatory>
+</o:Column>
+<o:Column Id="o169">
+<a:ObjectID>F1F536C4-A02E-49D0-B91A-F6D702731352</a:ObjectID>
+<a:Name>libelle</a:Name>
+<a:Code>LIBELLE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {260F67F8-3392-4F18-A32B-624D72AFA605}
+DAT 1496424935</a:History>
+<a:DataType>VARCHAR(100)</a:DataType>
+<a:Length>100</a:Length>
+</o:Column>
+<o:Column Id="o170">
+<a:ObjectID>A8F8FABC-E822-4FF4-9E67-372D5D06C12A</a:ObjectID>
+<a:Name>axe</a:Name>
+<a:Code>AXE</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {5320CF9C-F935-48E0-8CFE-D89020F70E51}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+</o:Column>
+<o:Column Id="o171">
+<a:ObjectID>71586147-2529-4879-BFF5-BACEB9063360</a:ObjectID>
+<a:Name>pk</a:Name>
+<a:Code>PK</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {A1D0142F-E6D1-4CE9-ABEB-939D85E990FB}
+DAT 1496424935</a:History>
+<a:DataType>INT4</a:DataType>
+<a:Length>4</a:Length>
+</o:Column>
+</c:Columns>
+<c:Keys>
+<o:Key Id="o172">
+<a:ObjectID>C9FF748B-7BE3-479C-900E-409F135F1F1F</a:ObjectID>
+<a:Name>Identifiant_1</a:Name>
+<a:Code>IDENTIFIANT_1</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {4C05F91D-0D55-411F-B914-4175F8EAC62F}
+DAT 1496424935</a:History>
+<c:Key.Columns>
+<o:Column Ref="o168"/>
+</c:Key.Columns>
+</o:Key>
+</c:Keys>
+<c:Indexes>
+<o:Index Id="o173">
+<a:ObjectID>4F194244-E8B4-4347-99A5-030089E8347E</a:ObjectID>
+<a:Name>VILLE_PK</a:Name>
+<a:Code>VILLE_PK</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:Unique>1</a:Unique>
+<c:LinkedObject>
+<o:Key Ref="o172"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o174">
+<a:ObjectID>833873B9-3207-4754-9022-25C1F29D2677</a:ObjectID>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Column>
+<o:Column Ref="o168"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+</c:Indexes>
+<c:PrimaryKey>
+<o:Key Ref="o172"/>
+</c:PrimaryKey>
+</o:Table>
+</c:Tables>
+<c:References>
+<o:Reference Id="o9">
+<a:ObjectID>143E613F-62A3-485D-ADA1-756DA0C921E2</a:ObjectID>
+<a:Name>Cooperative_bus</a:Name>
+<a:Code>COOPERATIVE_BUS</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {880FE15F-CB8E-4F77-8E08-2881A49DFA93}
+DAT 1496424934
+ATT MAND</a:History>
+<a:Cardinality>0..*</a:Cardinality>
+<a:UpdateConstraint>1</a:UpdateConstraint>
+<a:DeleteConstraint>1</a:DeleteConstraint>
+<c:ParentTable>
+<o:Table Ref="o39"/>
+</c:ParentTable>
+<c:ChildTable>
+<o:Table Ref="o36"/>
+</c:ChildTable>
+<c:ParentKey>
+<o:Key Ref="o91"/>
+</c:ParentKey>
+<c:Joins>
+<o:ReferenceJoin Id="o175">
+<a:ObjectID>6E2A3B9C-77C3-4627-BD9F-E68706F92F50</a:ObjectID>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Object1>
+<o:Column Ref="o88"/>
+</c:Object1>
+<c:Object2>
+<o:Column Ref="o53"/>
+</c:Object2>
+</o:ReferenceJoin>
+</c:Joins>
+</o:Reference>
+<o:Reference Id="o13">
+<a:ObjectID>D8EF38BA-EA51-44FE-B3F0-99821CC631F5</a:ObjectID>
+<a:Name>Client_reservation</a:Name>
+<a:Code>CLIENT_RESERVATION</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {8B05CB31-D08A-4DE8-B6FD-6294449CD157}
+DAT 1496424934
+ATT MAND</a:History>
+<a:Cardinality>0..*</a:Cardinality>
+<a:UpdateConstraint>1</a:UpdateConstraint>
+<a:DeleteConstraint>1</a:DeleteConstraint>
+<c:ParentTable>
+<o:Table Ref="o41"/>
+</c:ParentTable>
+<c:ChildTable>
+<o:Table Ref="o40"/>
+</c:ChildTable>
+<c:ParentKey>
+<o:Key Ref="o112"/>
+</c:ParentKey>
+<c:Joins>
+<o:ReferenceJoin Id="o176">
+<a:ObjectID>6E05A75B-408E-4863-934E-3D3AB1BB1267</a:ObjectID>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Object1>
+<o:Column Ref="o105"/>
+</c:Object1>
+<c:Object2>
+<o:Column Ref="o95"/>
+</c:Object2>
+</o:ReferenceJoin>
+</c:Joins>
+</o:Reference>
+<o:Reference Id="o16">
+<a:ObjectID>6F469A6E-88A4-4EC1-A7EC-5BFB27B50A44</a:ObjectID>
+<a:Name>bus_place</a:Name>
+<a:Code>ASSOCIATION_9</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {C9E62BC3-BE65-46FE-B101-E94C81FCFBA3}
+DAT 1496424934
+ATT MAND</a:History>
+<a:Cardinality>0..*</a:Cardinality>
+<a:UpdateConstraint>1</a:UpdateConstraint>
+<a:DeleteConstraint>1</a:DeleteConstraint>
+<c:ParentTable>
+<o:Table Ref="o36"/>
+</c:ParentTable>
+<c:ChildTable>
+<o:Table Ref="o38"/>
+</c:ChildTable>
+<c:ParentKey>
+<o:Key Ref="o60"/>
+</c:ParentKey>
+<c:Joins>
+<o:ReferenceJoin Id="o177">
+<a:ObjectID>894F25BB-D602-4622-B671-6DD02AE9B13A</a:ObjectID>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Object1>
+<o:Column Ref="o52"/>
+</c:Object1>
+<c:Object2>
+<o:Column Ref="o81"/>
+</c:Object2>
+</o:ReferenceJoin>
+</c:Joins>
+</o:Reference>
+<o:Reference Id="o19">
+<a:ObjectID>5BDF8312-D573-4A3E-97AA-493A7054DF2C</a:ObjectID>
+<a:Name>Relationship_1</a:Name>
+<a:Code>RELATIONSHIP_1</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {C9FBAD92-44FA-40BC-8EC5-1DF4A793F5C4}
+DAT 1496424934
+ATT MAND</a:History>
+<a:Cardinality>0..*</a:Cardinality>
+<a:UpdateConstraint>1</a:UpdateConstraint>
+<a:DeleteConstraint>1</a:DeleteConstraint>
+<c:ParentTable>
+<o:Table Ref="o36"/>
+</c:ParentTable>
+<c:ChildTable>
+<o:Table Ref="o37"/>
+</c:ChildTable>
+<c:ParentKey>
+<o:Key Ref="o60"/>
+</c:ParentKey>
+<c:Joins>
+<o:ReferenceJoin Id="o178">
+<a:ObjectID>05941BE1-E1B7-4D32-92FE-B1D915E590BE</a:ObjectID>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Object1>
+<o:Column Ref="o52"/>
+</c:Object1>
+<c:Object2>
+<o:Column Ref="o67"/>
+</c:Object2>
+</o:ReferenceJoin>
+</c:Joins>
+</o:Reference>
+<o:Reference Id="o22">
+<a:ObjectID>9484460C-824D-4C92-92B0-49C6873AAF4C</a:ObjectID>
+<a:Name>Relationship_2</a:Name>
+<a:Code>RELATIONSHIP_2</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {5B50544B-6D4D-41FB-BB11-6A31E41C149B}
+DAT 1496424934
+ATT MAND</a:History>
+<a:Cardinality>0..*</a:Cardinality>
+<a:UpdateConstraint>1</a:UpdateConstraint>
+<a:DeleteConstraint>1</a:DeleteConstraint>
+<c:ParentTable>
+<o:Table Ref="o38"/>
+</c:ParentTable>
+<c:ChildTable>
+<o:Table Ref="o47"/>
+</c:ChildTable>
+<c:ParentKey>
+<o:Key Ref="o83"/>
+</c:ParentKey>
+<c:Joins>
+<o:ReferenceJoin Id="o179">
+<a:ObjectID>42D23A5A-8A4A-4D49-A7BF-9303BE3B0E5C</a:ObjectID>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Object1>
+<o:Column Ref="o80"/>
+</c:Object1>
+<c:Object2>
+<o:Column Ref="o137"/>
+</c:Object2>
+</o:ReferenceJoin>
+</c:Joins>
+</o:Reference>
+<o:Reference Id="o24">
+<a:ObjectID>AAEF7A13-538C-4DE0-9F5F-BAE147994E87</a:ObjectID>
+<a:Name>Relationship_3</a:Name>
+<a:Code>RELATIONSHIP_3</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {E67FF338-7D4C-4587-8B7D-9AC0297E6837}
+DAT 1496424934
+ATT MAND</a:History>
+<a:Cardinality>0..*</a:Cardinality>
+<a:UpdateConstraint>1</a:UpdateConstraint>
+<a:DeleteConstraint>1</a:DeleteConstraint>
+<c:ParentTable>
+<o:Table Ref="o37"/>
+</c:ParentTable>
+<c:ChildTable>
+<o:Table Ref="o47"/>
+</c:ChildTable>
+<c:ParentKey>
+<o:Key Ref="o73"/>
+</c:ParentKey>
+<c:Joins>
+<o:ReferenceJoin Id="o180">
+<a:ObjectID>823F79A6-399C-4870-A3DA-DB03B406E1EE</a:ObjectID>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Object1>
+<o:Column Ref="o65"/>
+</c:Object1>
+<c:Object2>
+<o:Column Ref="o135"/>
+</c:Object2>
+</o:ReferenceJoin>
+</c:Joins>
+</o:Reference>
+<o:Reference Id="o26">
+<a:ObjectID>1DFD3CB0-D808-4471-A7CE-EF51CEC26818</a:ObjectID>
+<a:Name>Relationship_4</a:Name>
+<a:Code>RELATIONSHIP_4</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {1910DD47-9761-4BD3-9293-3FFA7E122BE1}
+DAT 1496424934
+ATT MAND</a:History>
+<a:Cardinality>0..*</a:Cardinality>
+<a:UpdateConstraint>1</a:UpdateConstraint>
+<a:DeleteConstraint>1</a:DeleteConstraint>
+<c:ParentTable>
+<o:Table Ref="o40"/>
+</c:ParentTable>
+<c:ChildTable>
+<o:Table Ref="o47"/>
+</c:ChildTable>
+<c:ParentKey>
+<o:Key Ref="o100"/>
+</c:ParentKey>
+<c:Joins>
+<o:ReferenceJoin Id="o181">
+<a:ObjectID>D04737F2-12CC-4AC4-8BCA-F20FBB18D8DD</a:ObjectID>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Object1>
+<o:Column Ref="o94"/>
+</c:Object1>
+<c:Object2>
+<o:Column Ref="o136"/>
+</c:Object2>
+</o:ReferenceJoin>
+</c:Joins>
+</o:Reference>
+<o:Reference Id="o29">
+<a:ObjectID>9BE7F1ED-F90D-4CC4-A836-5C5827987ACB</a:ObjectID>
+<a:Name>Relationship_5</a:Name>
+<a:Code>RELATIONSHIP_5</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {C51CCE37-93FE-4A93-BFE6-CA6D5C13B3C3}
+DAT 1496424934
+ATT MAND</a:History>
+<a:Cardinality>0..*</a:Cardinality>
+<a:UpdateConstraint>1</a:UpdateConstraint>
+<a:DeleteConstraint>1</a:DeleteConstraint>
+<c:ParentTable>
+<o:Table Ref="o39"/>
+</c:ParentTable>
+<c:ChildTable>
+<o:Table Ref="o48"/>
+</c:ChildTable>
+<c:ParentKey>
+<o:Key Ref="o91"/>
+</c:ParentKey>
+<c:Joins>
+<o:ReferenceJoin Id="o182">
+<a:ObjectID>3ED67602-2227-4885-BAC5-630B162AE73D</a:ObjectID>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Object1>
+<o:Column Ref="o88"/>
+</c:Object1>
+<c:Object2>
+<o:Column Ref="o148"/>
+</c:Object2>
+</o:ReferenceJoin>
+</c:Joins>
+</o:Reference>
+<o:Reference Id="o32">
+<a:ObjectID>D389B72A-D049-4169-98CE-3335A83C6286</a:ObjectID>
+<a:Name>Relationship_6</a:Name>
+<a:Code>RELATIONSHIP_6</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {35D9A7EE-4D34-45BC-B653-9DC47CD23B6E}
+DAT 1496424934
+ATT MAND</a:History>
+<a:Cardinality>0..*</a:Cardinality>
+<a:UpdateConstraint>1</a:UpdateConstraint>
+<a:DeleteConstraint>1</a:DeleteConstraint>
+<c:ParentTable>
+<o:Table Ref="o40"/>
+</c:ParentTable>
+<c:ChildTable>
+<o:Table Ref="o49"/>
+</c:ChildTable>
+<c:ParentKey>
+<o:Key Ref="o100"/>
+</c:ParentKey>
+<c:Joins>
+<o:ReferenceJoin Id="o183">
+<a:ObjectID>86E49C62-7D4E-41CC-9E0D-B4DEEE5F08F4</a:ObjectID>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Object1>
+<o:Column Ref="o94"/>
+</c:Object1>
+<c:Object2>
+<o:Column Ref="o160"/>
+</c:Object2>
+</o:ReferenceJoin>
+</c:Joins>
+</o:Reference>
+<o:Reference Id="o35">
+<a:ObjectID>5037B3D0-C600-49D5-9063-E66E22505EFD</a:ObjectID>
+<a:Name>Relation_7</a:Name>
+<a:Code>RELATION_7</a:Code>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:History>ORG {092D832A-322C-47CA-8B13-096BEF3586B1}
+DAT 1496424934
+ATT MAND</a:History>
+<a:Cardinality>0..*</a:Cardinality>
+<a:UpdateConstraint>1</a:UpdateConstraint>
+<a:DeleteConstraint>1</a:DeleteConstraint>
+<c:ParentTable>
+<o:Table Ref="o42"/>
+</c:ParentTable>
+<c:ChildTable>
+<o:Table Ref="o37"/>
+</c:ChildTable>
+<c:ParentKey>
+<o:Key Ref="o120"/>
+</c:ParentKey>
+<c:Joins>
+<o:ReferenceJoin Id="o184">
+<a:ObjectID>1151A7F4-3D28-4843-8FAF-BF396160DC47</a:ObjectID>
+<a:CreationDate>1496424934</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424934</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<c:Object1>
+<o:Column Ref="o115"/>
+</c:Object1>
+<c:Object2>
+<o:Column Ref="o66"/>
+</c:Object2>
+</o:ReferenceJoin>
+</c:Joins>
+</o:Reference>
+</c:References>
+<c:DefaultGroups>
+<o:Group Id="o185">
+<a:ObjectID>DC3592F1-D1E5-427F-B4D6-0D4BA7C49484</a:ObjectID>
+<a:Name>PUBLIC</a:Name>
+<a:Code>PUBLIC</a:Code>
+<a:CreationDate>1496424931</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424931</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+</o:Group>
+</c:DefaultGroups>
+<c:TargetModels>
+<o:TargetModel Id="o186">
+<a:ObjectID>4F1673DD-C65B-49F3-B331-479DA424DD49</a:ObjectID>
+<a:Name>PostgreSQL 8</a:Name>
+<a:Code>PGSQL80</a:Code>
+<a:CreationDate>1496424931</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424931</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:TargetModelURL>file:///%_DBMS%/pgsql8.xdb</a:TargetModelURL>
+<a:TargetModelID>8AF15AEA-CCBC-4EDC-B468-7DB8DB5300B2</a:TargetModelID>
+<a:TargetModelClassID>4BA9F647-DAB1-11D1-9944-006097355D9B</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o4"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o187">
+<a:ObjectID>635D3F59-F1B9-4F8B-9A34-1FB9D112E759</a:ObjectID>
+<a:Name>bus</a:Name>
+<a:Code>BUS</a:Code>
+<a:CreationDate>1496424935</a:CreationDate>
+<a:Creator>Meva Diane</a:Creator>
+<a:ModificationDate>1496424935</a:ModificationDate>
+<a:Modifier>Meva Diane</a:Modifier>
+<a:TargetModelURL>file:///H|/UwAmp/www/zotra/conception/bus.cdm</a:TargetModelURL>
+<a:TargetModelID>DF6F8513-61AB-4E9D-A933-96AB82D51948</a:TargetModelID>
+<a:TargetModelClassID>1E597170-9350-11D1-AB3C-0020AF71E433</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o3"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+</c:TargetModels>
+</o:Model>
+</c:Children>
+</o:RootObject>
+
+</Model>
