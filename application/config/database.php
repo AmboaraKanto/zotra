@@ -74,12 +74,13 @@ $active_group = 'bus';
 $query_builder = TRUE;
 
 $db['bus'] = array(
-	'dsn'	=> 'pgsql:host=localhost;port=5432;dbname=bus',
+	'dsn'	=> '',
+	/* 'dsn'	=> 'pgsql:host=localhost;port=5432;dbname=bus', */
 	'hostname' => 'localhost',
 	'username' => 'postgres',
 	'password' => 'root',
 	'database' => 'bus',
-	'dbdriver' => 'pdo',
+	'dbdriver' => 'postgre',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),

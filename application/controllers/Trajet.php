@@ -40,13 +40,13 @@ class Trajet extends CI_Controller{
 		$data['allChauffeur']=$this->util_model->findAll("chauffeur");
 		$data['allVille']=$this->util_model->findAll("ville");
 		if($_POST){
-			$bus=$this->input->post('bus'),
-        	$chauffeur=$this->input->post('chauffeur'),
-            $tarif=$this->input->post('tarif'),
-            $source=$this->input->post('source'),
-            $destination=$this->input->post('arrivee'),          
-            $datedepart=$this->input->post('datedepart'),
-            $heuredepart=$this->input->post('heuredepart'),
+			$bus=$this->input->post('bus');
+        	$chauffeur=$this->input->post('chauffeur');
+            $tarif=$this->input->post('tarif');
+            $source=$this->input->post('source');
+            $destination=$this->input->post('arrivee');        
+            $datedepart=$this->input->post('datedepart');
+            $heuredepart=$this->input->post('heuredepart');
 			try {
 				$this->trajet_lib->initialize(0,$chauffeur,$bus,$source,$destination,$datedepart,$heuredepart,$tarif);
 				 $donnee = array(
@@ -203,10 +203,11 @@ class Trajet extends CI_Controller{
         }
 
         public function recherche($date,$depart,$destination){
-            $this->load->model('Trajet_Model');
+            // $this->load->model('Trajet_Model');
             // Validation
             self::validationRecherche($date,$depart,$destination);
             // Select au niveau de la base
+			$trajet=new Trajet_Lib();
             $ret=Trajet_Model::findtrajet($date,$depart,$destination);
             // Verifier si le resultat est vide
             if(count($ret)==0) throw new Exception("Aucun resultat disponible pour votre recherche");
